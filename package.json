@@ -14,7 +14,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,11 +27,12 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@storybook/react": "^5.0.2",
+    "@babel/core": "^7.3.4",
     "@storybook/addon-actions": "^5.0.2",
     "@storybook/addon-links": "^5.0.2",
     "@storybook/addons": "^5.0.2",
-    "@babel/core": "^7.3.4",
+    "@storybook/react": "^5.0.2",
+    "@storybook/storybook-deployer": "^2.8.1",
     "babel-loader": "^8.0.5"
   }
 }
