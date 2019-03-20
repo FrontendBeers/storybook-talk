@@ -2,9 +2,13 @@
 
 Storybook, the playground you need for your UI components! 🎨
 
+## Online demo
+
+To see it live, go to https://reactbeerlille.github.io/storybook-talk/ 🎉
+
 ## Presentation
 
-Run `npm run storybook` to launch the presentation in Storybook and go to http://localhost:6006 🎉
+Run `npm run storybook` to launch the presentation in Storybook and go to http://localhost:6006 😎
 
 ## Speaker
 
