@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { storiesOf } from '@storybook/react';
+import Text from '../../Components/Text';
 
 storiesOf('Slides/Intro', module)
   .addDecorator(storyFn => <StoryWrapper>{storyFn()}</StoryWrapper>)
@@ -12,15 +13,18 @@ storiesOf('Slides/Intro', module)
         <Infos>By Laurent Thiebault @ React Beer Lille <span role="img" aria-label="react">⚛️</span> <span role="img" aria-label="beer">🍺</span></Infos>
     </Wrapper>
   ))
-  .add('About me', () => (
+  .add('About @lauthieb', () => (
     <Wrapper>
         <Title>Laurent Thiebault</Title>
-        <Subtitle>Tech Lead at Decathlon <span role="img" aria-label="ball">🏈</span></Subtitle>
+        <Subtitle>Tech Lead at Decathlon <span role="img" aria-label="guy with a laptop">👨🏻‍💻</span> <span role="img" aria-label="ball">🏈</span></Subtitle>
+        <Infos>
+          <div><span role="img" aria-label="twitter">🐦</span> <a href="https://twitter.com/lauthieb" target="_blank" rel="noopener noreferrer">twitter.com/lauthieb</a></div>
+          <div><span role="img" aria-label="github">😺</span> <a href="https://github.com/lauthieb" target="_blank" rel="noopener noreferrer">github.com/lauthieb</a></div>
+        </Infos>
     </Wrapper>
   ));
 
 const StoryWrapper = styled.div`
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,16 +39,14 @@ const Wrapper = styled.div`
   justify-content: center;
 `;
 
-const Title = styled.h1`
-  font-size: 80px;
+const Title = styled(Text).attrs({size: '80px', weight: 800})`
   margin: 0.3em 0;
 `;
 
-const Subtitle = styled.h2`
-  font-size: 40px;
-`;
+const Subtitle = styled(Text).attrs({size: '42px', weight: 500})``;
 
-const Infos = styled.h3`
-  margin-top: 3em;
-  font-size: 24px;
+const Infos = styled(Text).attrs({size: '30px'})`
+  margin-top: 3.5em;
+  font-size: 30px;
+  font-weight: 400;
 `;
