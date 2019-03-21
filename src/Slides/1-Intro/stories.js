@@ -3,18 +3,23 @@ import styled from 'styled-components';
 
 import { storiesOf } from '@storybook/react';
 import Text from '../../Components/Text';
+import storybookLogo from '../../../assets/storybook.png';
+import lauthieb from '../../../assets/lauthieb.jpg';
+import Image from '../../Components/Image';
 
 storiesOf('Slides/Intro', module)
   .addDecorator(storyFn => <StoryWrapper>{storyFn()}</StoryWrapper>)
   .add('Storybook', () => (
     <Wrapper>
+        <Image src={storybookLogo} alt='Laurent Thiebault' width={160} height={160} />
         <Title>Storybook</Title>
         <Subtitle>The playground you need for your UI components! <span role="img" aria-label="tada">🎨</span></Subtitle>
-        <Infos>By Laurent Thiebault @ React Beer Lille <span role="img" aria-label="react">⚛️</span> <span role="img" aria-label="beer">🍺</span></Infos>
+        <Infos>React Beer Lille #1 <span role="img" aria-label="react">⚛️</span> <span role="img" aria-label="beer">🍺</span> / Laurent Thiebault</Infos>
     </Wrapper>
   ))
   .add('About @lauthieb', () => (
     <Wrapper>
+        <Image src={lauthieb} alt='Laurent Thiebault' width={300} height={300} isCircle />
         <Title>Laurent Thiebault</Title>
         <Subtitle>Tech Lead at Decathlon <span role="img" aria-label="guy with a laptop">👨🏻‍💻</span> <span role="img" aria-label="ball">🏈</span></Subtitle>
         <Infos>

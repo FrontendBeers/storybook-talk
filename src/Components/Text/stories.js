@@ -15,9 +15,9 @@ storiesOf('Components/Text', module)
     .add('With knobs', () => {
         const label = text('Label', 'Hello World');
         const color = select('Color', COLORS, COLORS.BLACK);
-        return <Text color={color}>{label}</Text>;
+        return <Text color={color} size='80px'>{label}</Text>;
     })
-    .add('With color picker', () => <Text color={color('Color', COLORS.BLACK)}>Hello World</Text>);
+    .add('With color picker', () => <Text color={color('Color', COLORS.BLACK)} size='80px'>Hello World</Text>);
 
 const StoryWrapper = styled.div`
     padding: 10px;
