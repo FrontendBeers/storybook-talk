@@ -1,36 +1,26 @@
-import React from 'react';
+import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import COLORS from '../../Utils/Colors';
 
-class Tabs extends React.Component {
-  static propTypes = {
-    children: PropTypes.any.isRequired,
+const Tabs = ({children, allDisabled}) => {
+  const [selectedTab, setSelectedTab] = useState(0);
+
+  const selectTab = tabIndex => {
+    setSelectedTab(tabIndex);
   };
 
-  state = {
-    selectedTab: 0,
-  };
-
-  selectTab = (tabIndex) => {
-    this.setState({ selectedTab: tabIndex });
-  };
-
-  render() {
-    const { children, tabBreak } = this.props;
-    const { selectedTab } = this.state;
-
-    return (
+  return (
       <TabsWrapper>
-        <TabList breakPoint={tabBreak} role='tablist'>
+        <TabList role='tablist'>
           {React.Children.map(children, ({ props: { label, isDisabled } }, index) =>
             <TabButton
               role='tab'
               isSelected={selectedTab === index}
               aria-selected={selectedTab === index ? 'true' : 'false'}
-              onClick={() => !isDisabled && this.selectTab(index)}
-              isDisabled={isDisabled}
+              onClick={() => (!allDisabled && !isDisabled) && selectTab(index)}
+              isDisabled={allDisabled || isDisabled}
             >
               {label}
             </TabButton>
@@ -43,9 +33,19 @@ class Tabs extends React.Component {
           )}
         </Content>
       </TabsWrapper>
-    );
-  }
-}
+  );
+};
+
+Tabs.propTypes = {
+  children: PropTypes.any.isRequired,
+  allDisabled: PropTypes.bool,
+};
+
+Tabs.defaultProps = {
+  allDisabled: false,
+};
+
+export default Tabs;
 
 const TabsWrapper = styled.div`
   flex: 1;
@@ -100,5 +100,3 @@ const Content = styled.div`
   width: 100%;
   padding-top: 16px;
 `;
-
-export default Tabs;

@@ -62,6 +62,17 @@ storiesOf('Components/Tabs', module)
         <div label='Tab 3'>
             <Text size='60px'>Hello Tab 3</Text>
         </div>
+    </Tabs>)
+    .add('With all tabs disabled', () => <Tabs allDisabled>
+        <div label='Tab 1'>
+            <Text size='60px'>Hello Tab 1</Text>
+        </div>
+        <div label='Tab 2'>
+            <Text size='60px'>Hello Tab 2</Text>
+        </div>
+        <div label='Tab 3'>
+            <Text size='60px'>Hello Tab 3</Text>
+        </div>
     </Tabs>);
 
 const StoryWrapper = styled.div`
