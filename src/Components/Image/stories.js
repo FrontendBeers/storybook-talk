@@ -24,5 +24,5 @@ storiesOf('Components/Image', module)
     });
 
 const StoryWrapper = styled.div`
-    padding: 10px;
+    padding: 20px;
 `;

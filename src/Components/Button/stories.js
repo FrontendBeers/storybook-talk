@@ -13,5 +13,5 @@ storiesOf('Components/Button', module)
     .add('With onClick', () => <Button onClick={action('button-click')}>Click me</Button>);;
 
 const StoryWrapper = styled.div`
-    padding: 10px;
+    padding: 20px;
 `;

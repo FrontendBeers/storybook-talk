@@ -20,5 +20,5 @@ storiesOf('Components/Text', module)
     .add('With color picker', () => <Text color={color('Color', COLORS.BLACK)} size='80px'>Hello World</Text>);
 
 const StoryWrapper = styled.div`
-    padding: 10px;
+    padding: 20px;
 `;
