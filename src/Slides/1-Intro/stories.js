@@ -2,10 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { storiesOf } from '@storybook/react';
+import { linkTo } from '@storybook/addon-links';
 import Text from '../../Components/Text';
 import storybookLogo from '../../../assets/storybook.png';
 import lauthieb from '../../../assets/lauthieb.jpg';
 import Image from '../../Components/Image';
+import Button from '../../Components/Button';
 
 storiesOf('Slides/Intro', module)
   .addDecorator(storyFn => <StoryWrapper>{storyFn()}</StoryWrapper>)
@@ -26,6 +28,31 @@ storiesOf('Slides/Intro', module)
           <div><span role="img" aria-label="twitter">🐦</span> <a href="https://twitter.com/lauthieb" target="_blank" rel="noopener noreferrer">twitter.com/lauthieb</a></div>
           <div><span role="img" aria-label="github">😺</span> <a href="https://github.com/lauthieb" target="_blank" rel="noopener noreferrer">github.com/lauthieb</a></div>
         </Infos>
+    </Wrapper>
+  ))
+  .add('A component story...', () => (
+    <Wrapper>
+        <Title>A component story...</Title>
+        <StyledButton style={{opacity: 0}} onClick={linkTo('Components/Tabs')}>
+        <Text size='40px'>
+          <span role="img" aria-label="oh !">😱</span> Tell me more! <span role="img" aria-label="love">😍</span>
+        </Text>
+      </StyledButton>
+    </Wrapper>
+  ))
+  .add('Tell me more!', () => (
+    <Wrapper>
+      <Title>A component story...</Title>
+      <StyledButton onClick={linkTo('Components/Tabs')}>
+        <Text size='40px'>
+          <span role="img" aria-label="oh !">😱</span> Tell me more! <span role="img" aria-label="love">😍</span>
+        </Text>
+      </StyledButton>
+    </Wrapper>
+  ))
+  .add('A lot of combinations...', () => (
+    <Wrapper>
+      <Title>There's a lot of combinations...</Title>
     </Wrapper>
   ));
 
@@ -54,4 +81,10 @@ const Infos = styled(Text).attrs({size: '30px'})`
   margin-top: 3.5em;
   font-size: 30px;
   font-weight: 400;
+`;
+
+const StyledButton = styled(Button)`
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
 `;

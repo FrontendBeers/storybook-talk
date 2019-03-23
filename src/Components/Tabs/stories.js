@@ -2,12 +2,16 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { storiesOf } from '@storybook/react';
+import { linkTo } from '@storybook/addon-links';
 import { withInfo } from '@storybook/addon-info';
 import Tabs from '../../Components/Tabs';
 import Text from '../../Components/Text';
+import Button from '../../Components/Button';
 
 storiesOf('Components/Tabs', module)
-    .addDecorator(storyFn => <StoryWrapper>{storyFn()}</StoryWrapper>)
+    .addDecorator(storyFn => <StoryWrapper>
+        <Text size='80px'>A "Tabs" component...</Text>
+        {storyFn()}</StoryWrapper>)
     .addDecorator(withInfo)
     .add('Default', () => <Tabs>
         <div label='Tab 1'>
@@ -63,19 +67,35 @@ storiesOf('Components/Tabs', module)
             <Text size='60px'>Hello Tab 3</Text>
         </div>
     </Tabs>)
-    .add('With all tabs disabled', () => <Tabs allDisabled>
-        <div label='Tab 1'>
-            <Text size='60px'>Hello Tab 1</Text>
-        </div>
-        <div label='Tab 2'>
-            <Text size='60px'>Hello Tab 2</Text>
-        </div>
-        <div label='Tab 3'>
-            <Text size='60px'>Hello Tab 3</Text>
-        </div>
-    </Tabs>);
+    .add('With all tabs disabled', () => (
+        <React.Fragment>
+            <Tabs allDisabled>
+                <div label='Tab 1'>
+                    <Text size='60px'>Hello Tab 1</Text>
+                </div>
+                <div label='Tab 2'>
+                    <Text size='60px'>Hello Tab 2</Text>
+                </div>
+                <div label='Tab 3'>
+                    <Text size='60px'>Hello Tab 3</Text>
+                </div>
+            </Tabs>
+            <StyledButton onClick={linkTo('slides-intro--a-lot-of-combinations')}>
+                <Text size='20px'>
+                    Bye, thanks! <span role="img" aria-label="thanks">🤟</span>
+                </Text>
+            </StyledButton>
+        </React.Fragment>
+    ));
 
 const StoryWrapper = styled.div`
+    margin: 0 auto;
     padding: 20px;
     width: 800px;
+`;
+
+const StyledButton = styled(Button)`
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 40px;
 `;
