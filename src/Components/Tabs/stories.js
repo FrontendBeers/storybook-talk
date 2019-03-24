@@ -100,7 +100,7 @@ storiesOf('Components/Tabs', module)
       </Tabs>
       <StyledButton onClick={linkTo('slides-intro--a-lot-of-combinations')}>
         <Text size="20px">
-          Bye, thanks!{' '}
+          Okay, thanks!{' '}
           <span role="img" aria-label="thanks">
             🤟
           </span>

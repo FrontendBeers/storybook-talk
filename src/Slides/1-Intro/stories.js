@@ -120,6 +120,50 @@ storiesOf('Slides/Intro', module)
   .add('A lot of combinations...', () => (
     <Wrapper>
       <Title>There is a lot of combinations...</Title>
+      <iframe
+        title="confused"
+        src="https://giphy.com/embed/3o7btPCcdNniyf0ArS"
+        width="480"
+        height="268"
+        frameBorder="0"
+        className="giphy-embed"
+        allowFullScreen
+        style={{ margin: '0 auto', marginTop: '40px' }}
+      />
+    </Wrapper>
+  ))
+  .add('What if a new developer arrives?', () => (
+    <Wrapper>
+      <Title>What if a new developer arrives?</Title>
+    </Wrapper>
+  ))
+  .add('Or if you come back in 6 months?', () => (
+    <Wrapper>
+      <Title>Or if you come back in 6 months?</Title>
+    </Wrapper>
+  ))
+  .add('Brain explosion & time consuming!', () => (
+    <Wrapper>
+      <iframe
+        title="Brain explosion!"
+        src="https://giphy.com/embed/2rqEdFfkMzXmo"
+        width="1200"
+        height="400"
+        frameBorder="0"
+        className="giphy-embed"
+        allowFullScreen
+        style={{ margin: '0 auto' }}
+      />
+    </Wrapper>
+  ))
+  .add('We need a solution...', () => (
+    <Wrapper>
+      <Title>
+        We need a solution...{' '}
+        <span role="img" aria-label="love">
+          🙏
+        </span>
+      </Title>
     </Wrapper>
   ));
 

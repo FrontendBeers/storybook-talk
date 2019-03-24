@@ -76,7 +76,6 @@ const TabButton = styled.button`
   &:hover,
   &:focus,
   &:active {
-    ${props => props.isDisabled && 'border: none'};
     border-bottom: 4px solid
       ${props => (props.isSelected ? COLORS.BLUE : COLORS.GRAY)};
     cursor: ${props => (props.isDisabled ? 'not-allowed' : 'pointer')};
