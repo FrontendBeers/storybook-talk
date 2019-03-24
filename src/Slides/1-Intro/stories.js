@@ -5,6 +5,7 @@ import { storiesOf } from '@storybook/react';
 import { linkTo } from '@storybook/addon-links';
 import Text from '../../Components/Text';
 import storybookLogo from '../../../assets/storybook.png';
+import complicated from '../../../assets/complicated.png';
 import lauthieb from '../../../assets/lauthieb.jpg';
 import Image from '../../Components/Image';
 import Button from '../../Components/Button';
@@ -13,12 +14,7 @@ storiesOf('Slides/Intro', module)
   .addDecorator(storyFn => <StoryWrapper>{storyFn()}</StoryWrapper>)
   .add('Storybook', () => (
     <Wrapper>
-      <Image
-        src={storybookLogo}
-        alt="Laurent Thiebault"
-        width={160}
-        height={160}
-      />
+      <Image src={storybookLogo} alt="Storybook" width={160} height={160} />
       <Title>Storybook</Title>
       <Subtitle>
         The playground you need for your UI components!{' '}
@@ -147,12 +143,119 @@ storiesOf('Slides/Intro', module)
       <iframe
         title="Brain explosion!"
         src="https://giphy.com/embed/2rqEdFfkMzXmo"
-        width="1200"
+        width="667"
         height="400"
         frameBorder="0"
         className="giphy-embed"
         allowFullScreen
         style={{ margin: '0 auto' }}
+      />
+    </Wrapper>
+  ))
+  .add('Components introduce new challenges 1', () => (
+    <Wrapper>
+      <Title>Components introduce new challenges</Title>
+      <ListItem style={{ opacity: 0 }}>
+        <span role="img" aria-label="explosion">
+          💥
+        </span>{' '}
+        Countless situations & states to support
+      </ListItem>
+      <ListItem style={{ opacity: 0 }}>
+        <span role="img" aria-label="hard">
+          🤯
+        </span>{' '}
+        Hundreds of components and use cases
+      </ListItem>
+      <ListItem style={{ opacity: 0 }}>
+        <span role="img" aria-label="bomb">
+          💣
+        </span>{' '}
+        Bugs spread because of dependencies
+      </ListItem>
+    </Wrapper>
+  ))
+  .add('Components introduce new challenges 2', () => (
+    <Wrapper>
+      <Title>Components introduce new challenges</Title>
+      <ListItem>
+        <span role="img" aria-label="explosion">
+          💥
+        </span>{' '}
+        Countless situations & states to support
+      </ListItem>
+      <ListItem style={{ opacity: 0 }}>
+        <span role="img" aria-label="hard">
+          🤯
+        </span>{' '}
+        Hundreds of components and use cases
+      </ListItem>
+      <ListItem style={{ opacity: 0 }}>
+        <span role="img" aria-label="bomb">
+          💣
+        </span>{' '}
+        Bugs spread because of dependencies
+      </ListItem>
+    </Wrapper>
+  ))
+  .add('Components introduce new challenges 3', () => (
+    <Wrapper>
+      <Title>Components introduce new challenges</Title>
+      <ListItem>
+        <span role="img" aria-label="explosion">
+          💥
+        </span>{' '}
+        Countless situations & states to support
+      </ListItem>
+      <ListItem>
+        <span role="img" aria-label="hard">
+          🤯
+        </span>{' '}
+        Hundreds of components and use cases
+      </ListItem>
+      <ListItem style={{ opacity: 0 }}>
+        <span role="img" aria-label="bomb">
+          💣
+        </span>{' '}
+        Bugs spread because of dependencies
+      </ListItem>
+    </Wrapper>
+  ))
+  .add('Components introduce new challenges 4', () => (
+    <Wrapper>
+      <Title>Components introduce new challenges</Title>
+      <ListItem>
+        <span role="img" aria-label="explosion">
+          💥
+        </span>{' '}
+        Countless situations & states to support
+      </ListItem>
+      <ListItem>
+        <span role="img" aria-label="hard">
+          🤯
+        </span>{' '}
+        Hundreds of components and use cases
+      </ListItem>
+      <ListItem>
+        <span role="img" aria-label="bomb">
+          💣
+        </span>{' '}
+        Bugs spread because of dependencies
+      </ListItem>
+    </Wrapper>
+  ))
+  .add('Building components is complicated 1', () => (
+    <Wrapper>
+      <Title>Building components is complicated</Title>
+    </Wrapper>
+  ))
+  .add('Building components is complicated 2', () => (
+    <Wrapper>
+      <Image
+        src={complicated}
+        alt="Building components is complicated"
+        width={1200}
+        height={400}
       />
     </Wrapper>
   ))
@@ -187,6 +290,13 @@ const Title = styled(Text).attrs({ size: '80px', weight: 800 })`
 `;
 
 const Subtitle = styled(Text).attrs({ size: '42px', weight: 500 })``;
+
+const ListItem = styled(Text).attrs({
+  size: '42px',
+  weight: 500
+})`
+  margin-bottom: 0;
+`;
 
 const Infos = styled(Text).attrs({ size: '30px' })`
   margin-top: 3.5em;
