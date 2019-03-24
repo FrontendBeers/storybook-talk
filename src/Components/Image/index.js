@@ -4,46 +4,42 @@ import styled from 'styled-components';
 
 const FALLBACK_IMAGE = require('../../../assets/fallback.jpg');
 
-const Image = ({
-    className,
-    fallbackSrc,
-    ...props,
-  }) => {
-    const src = props.src || FALLBACK_IMAGE;
+const Image = ({ className, fallbackSrc, src, ...props }) => {
+  const imgSrc = src || FALLBACK_IMAGE;
 
-    return (
-      <Wrapper className={className}>
-          <Img {...props} src={src} />
-      </Wrapper>
-    );
+  return (
+    <Wrapper className={className}>
+      <Img {...props} src={imgSrc} />
+    </Wrapper>
+  );
 };
 
 Image.propTypes = {
-    className: PropTypes.string,
-    src: PropTypes.string.isRequired,
-    alt: PropTypes.string,
-    width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-    height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-    isCircle: PropTypes.bool,
+  className: PropTypes.string,
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string,
+  width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  isCircle: PropTypes.bool
 };
 
 Image.defaultProps = {
-    className: void 0,
-    alt: void 0,
-    width: 400,
-    height: 400,
-    isCircle: false,
+  className: undefined,
+  alt: undefined,
+  width: 400,
+  height: 400,
+  isCircle: false
 };
 
 export default Image;
 
 const Wrapper = styled.span`
-    position: relative;
+  position: relative;
 `;
 
 const Img = styled.img`
-    height: ${props => (props.height ? props.height : 'initial')};
-    width: ${props => (props.width ? props.width : 'initial')};
+  height: ${props => (props.height ? props.height : 'initial')};
+  width: ${props => (props.width ? props.width : 'initial')};
 
-    ${props => props.isCircle && 'border-radius: 50%'};
+  ${props => props.isCircle && 'border-radius: 50%'};
 `;

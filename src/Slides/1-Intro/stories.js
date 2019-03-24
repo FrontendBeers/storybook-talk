@@ -13,29 +13,90 @@ storiesOf('Slides/Intro', module)
   .addDecorator(storyFn => <StoryWrapper>{storyFn()}</StoryWrapper>)
   .add('Storybook', () => (
     <Wrapper>
-        <Image src={storybookLogo} alt='Laurent Thiebault' width={160} height={160} />
-        <Title>Storybook</Title>
-        <Subtitle>The playground you need for your UI components! <span role="img" aria-label="tada">🎨</span></Subtitle>
-        <Infos>React Beer Lille #1 <span role="img" aria-label="react">⚛️</span> <span role="img" aria-label="beer">🍺</span> / Laurent Thiebault</Infos>
+      <Image
+        src={storybookLogo}
+        alt="Laurent Thiebault"
+        width={160}
+        height={160}
+      />
+      <Title>Storybook</Title>
+      <Subtitle>
+        The playground you need for your UI components!{' '}
+        <span role="img" aria-label="tada">
+          🎨
+        </span>
+      </Subtitle>
+      <Infos>
+        React Beer Lille #1{' '}
+        <span role="img" aria-label="react">
+          ⚛️
+        </span>{' '}
+        <span role="img" aria-label="beer">
+          🍺
+        </span>{' '}
+        / Laurent Thiebault
+      </Infos>
     </Wrapper>
   ))
   .add('About @lauthieb', () => (
     <Wrapper>
-        <Image src={lauthieb} alt='Laurent Thiebault' width={300} height={300} isCircle />
-        <Title>Laurent Thiebault</Title>
-        <Subtitle>Tech Lead at Decathlon <span role="img" aria-label="guy with a laptop">👨🏻‍💻</span> <span role="img" aria-label="ball">🏈</span></Subtitle>
-        <Infos>
-          <div><span role="img" aria-label="twitter">🐦</span> <a href="https://twitter.com/lauthieb" target="_blank" rel="noopener noreferrer">twitter.com/lauthieb</a></div>
-          <div><span role="img" aria-label="github">😺</span> <a href="https://github.com/lauthieb" target="_blank" rel="noopener noreferrer">github.com/lauthieb</a></div>
-        </Infos>
+      <Image
+        src={lauthieb}
+        alt="Laurent Thiebault"
+        width={300}
+        height={300}
+        isCircle
+      />
+      <Title>Laurent Thiebault</Title>
+      <Subtitle>
+        Tech Lead at Decathlon{' '}
+        <span role="img" aria-label="guy with a laptop">
+          👨🏻‍💻
+        </span>{' '}
+        <span role="img" aria-label="ball">
+          🏈
+        </span>
+      </Subtitle>
+      <Infos>
+        <div>
+          <span role="img" aria-label="twitter">
+            🐦
+          </span>{' '}
+          <a
+            href="https://twitter.com/lauthieb"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            twitter.com/lauthieb
+          </a>
+        </div>
+        <div>
+          <span role="img" aria-label="github">
+            😺
+          </span>{' '}
+          <a
+            href="https://github.com/lauthieb"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github.com/lauthieb
+          </a>
+        </div>
+      </Infos>
     </Wrapper>
   ))
   .add('A component story...', () => (
     <Wrapper>
-        <Title>A component story...</Title>
-        <StyledButton style={{opacity: 0}} onClick={linkTo('Components/Tabs')}>
-        <Text size='40px'>
-          <span role="img" aria-label="oh !">😱</span> Tell me more! <span role="img" aria-label="love">😍</span>
+      <Title>A component story...</Title>
+      <StyledButton style={{ opacity: 0 }} onClick={linkTo('Components/Tabs')}>
+        <Text size="40px">
+          <span role="img" aria-label="oh !">
+            😱
+          </span>{' '}
+          Tell me more!{' '}
+          <span role="img" aria-label="love">
+            😍
+          </span>
         </Text>
       </StyledButton>
     </Wrapper>
@@ -44,15 +105,21 @@ storiesOf('Slides/Intro', module)
     <Wrapper>
       <Title>A component story...</Title>
       <StyledButton onClick={linkTo('Components/Tabs')}>
-        <Text size='40px'>
-          <span role="img" aria-label="oh !">😱</span> Tell me more! <span role="img" aria-label="love">😍</span>
+        <Text size="40px">
+          <span role="img" aria-label="oh !">
+            😱
+          </span>{' '}
+          Tell me more!{' '}
+          <span role="img" aria-label="love">
+            😍
+          </span>
         </Text>
       </StyledButton>
     </Wrapper>
   ))
   .add('A lot of combinations...', () => (
     <Wrapper>
-      <Title>There's a lot of combinations...</Title>
+      <Title>There is a lot of combinations...</Title>
     </Wrapper>
   ));
 
@@ -71,13 +138,13 @@ const Wrapper = styled.div`
   justify-content: center;
 `;
 
-const Title = styled(Text).attrs({size: '80px', weight: 800})`
+const Title = styled(Text).attrs({ size: '80px', weight: 800 })`
   margin: 0.3em 0;
 `;
 
-const Subtitle = styled(Text).attrs({size: '42px', weight: 500})``;
+const Subtitle = styled(Text).attrs({ size: '42px', weight: 500 })``;
 
-const Infos = styled(Text).attrs({size: '30px'})`
+const Infos = styled(Text).attrs({ size: '30px' })`
   margin-top: 3.5em;
   font-size: 30px;
   font-weight: 400;

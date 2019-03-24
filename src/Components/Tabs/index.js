@@ -1,10 +1,10 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import COLORS from '../../Utils/Colors';
 
-const Tabs = ({children, allDisabled}) => {
+const Tabs = ({ children, allDisabled }) => {
   const [selectedTab, setSelectedTab] = useState(0);
 
   const selectTab = tabIndex => {
@@ -12,37 +12,40 @@ const Tabs = ({children, allDisabled}) => {
   };
 
   return (
-      <TabsWrapper>
-        <TabList role='tablist'>
-          {React.Children.map(children, ({ props: { label, isDisabled } }, index) =>
+    <TabsWrapper>
+      <TabList role="tablist">
+        {React.Children.map(
+          children,
+          ({ props: { label, isDisabled } }, index) => (
             <TabButton
-              role='tab'
+              role="tab"
               isSelected={selectedTab === index}
               aria-selected={selectedTab === index ? 'true' : 'false'}
-              onClick={() => (!allDisabled && !isDisabled) && selectTab(index)}
+              onClick={() => !allDisabled && !isDisabled && selectTab(index)}
               isDisabled={allDisabled || isDisabled}
             >
               {label}
             </TabButton>
-          )}
-        </TabList>
+          )
+        )}
+      </TabList>
 
-        <Content>
-          {React.Children.map(children, (comp, index) =>
-            selectedTab === index ? comp : undefined
-          )}
-        </Content>
-      </TabsWrapper>
+      <Content>
+        {React.Children.map(children, (comp, index) =>
+          selectedTab === index ? comp : undefined
+        )}
+      </Content>
+    </TabsWrapper>
   );
 };
 
 Tabs.propTypes = {
-  children: PropTypes.any.isRequired,
-  allDisabled: PropTypes.bool,
+  children: PropTypes.node.isRequired,
+  allDisabled: PropTypes.bool
 };
 
 Tabs.defaultProps = {
-  allDisabled: false,
+  allDisabled: false
 };
 
 export default Tabs;
@@ -65,19 +68,18 @@ const TabButton = styled.button`
   outline: none;
   transition: border-color 0.2s ease-in;
   border: 1px solid ${COLORS.GRAY};
-  color: ${props => props.isDisabled ? COLORS.DARK : COLORS.BLACK};
+  color: ${props => (props.isDisabled ? COLORS.DARK : COLORS.BLACK)};
   border-radius: 10px 10px 0 0;
-  border-bottom: 4px solid ${props => props.isSelected ? COLORS.BLUE : COLORS.WHITE};
-  
-  &:hover, &:focus, &:active {
-    border-bottom: 4px solid ${props => 
-        props.isDisabled ? 
-            'none' :
-            props.isSelected ?
-                COLORS.BLUE : 
-                COLORS.GRAY
-        };
-    cursor: ${props => props.isDisabled ? 'not-allowed' : 'pointer'};
+  border-bottom: 4px solid
+    ${props => (props.isSelected ? COLORS.BLUE : COLORS.WHITE)};
+
+  &:hover,
+  &:focus,
+  &:active {
+    ${props => props.isDisabled && 'border: none'};
+    border-bottom: 4px solid
+      ${props => (props.isSelected ? COLORS.BLUE : COLORS.GRAY)};
+    cursor: ${props => (props.isDisabled ? 'not-allowed' : 'pointer')};
   }
 `;
 
