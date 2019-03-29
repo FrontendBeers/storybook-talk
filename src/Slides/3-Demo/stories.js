@@ -3,19 +3,21 @@ import styled from 'styled-components';
 
 import { storiesOf } from '@storybook/react';
 import Text from '../../Components/Text';
+import { useBlink } from '../../Utils/CustomHooks';
+import COLORS from '../../Utils/Colors';
 
 storiesOf('Slides/Demo', module)
   .addDecorator(storyFn => <StoryWrapper>{storyFn()}</StoryWrapper>)
   .add("It's time for a...", () => (
     <Wrapper>
-      <Title>It{"'"}s time for a...</Title>
-      <BigTitle style={{ opacity: 0 }}>DEMO!</BigTitle>
+      <Title>Okay, it{"'"}s time for a...</Title>
+      <BigTitle style={{ opacity: 0, margin: '0 0.4em' }}>DEMO!</BigTitle>
     </Wrapper>
   ))
   .add('DEMO!', () => (
     <Wrapper>
-      <Title>It{"'"}s time for a...</Title>
-      <BigTitle>DEMO!</BigTitle>
+      <Title>Okay, it{"'"}s time for a...</Title>
+      <BigTitle style={{ margin: '0 0.4em' }}>DEMO!</BigTitle>
     </Wrapper>
   ));
 
@@ -38,6 +40,13 @@ const Title = styled(Text).attrs({ size: '60px', weight: 800 })`
   margin: 0.3em 0;
 `;
 
-const BigTitle = styled(Text).attrs({ size: '120px', weight: 800 })`
-  margin: 0.3em 0;
-`;
+const BigTitle = ({ children, ...props }) => (
+  <Text
+    size="120px"
+    weight={800}
+    color={useBlink(COLORS.BLUE, 1000)}
+    {...props}
+  >
+    {children}
+  </Text>
+);

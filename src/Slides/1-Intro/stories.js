@@ -139,8 +139,8 @@ storiesOf('Slides/Intro', module)
       <iframe
         title="Brain explosion!"
         src="https://giphy.com/embed/2rqEdFfkMzXmo"
-        width="667"
-        height="400"
+        width="1000px"
+        height="600px"
         frameBorder="0"
         className="giphy-embed"
         allowFullScreen

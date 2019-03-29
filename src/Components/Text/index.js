@@ -7,8 +7,6 @@ const Text = ({ children, ...props }) => <Tag {...props}>{children}</Tag>;
 
 Text.defaultProps = {
   children: undefined,
-  className: undefined,
-  style: undefined,
   size: '20px',
   weight: 400,
   color: COLORS.BLACK
@@ -16,8 +14,6 @@ Text.defaultProps = {
 
 Text.propTypes = {
   children: PropTypes.node,
-  className: PropTypes.string,
-  style: PropTypes.node,
   size: PropTypes.string,
   weight: PropTypes.number,
   color: PropTypes.string

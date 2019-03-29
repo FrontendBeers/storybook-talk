@@ -99,12 +99,7 @@ storiesOf('Components/Tabs', module)
         </div>
       </Tabs>
       <StyledButton onClick={linkTo('slides-intro--a-lot-of-combinations')}>
-        <Text size="20px">
-          Okay, thanks!{' '}
-          <span role="img" aria-label="thanks">
-            🤟
-          </span>
-        </Text>
+        Okay, thanks!
       </StyledButton>
     </React.Fragment>
   ));
