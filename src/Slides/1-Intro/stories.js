@@ -85,15 +85,13 @@ storiesOf('Slides/Intro', module)
     <Wrapper>
       <Title>A component story...</Title>
       <StyledButton style={{ opacity: 0 }} onClick={linkTo('Components/Tabs')}>
-        <Text size="40px">
-          <span role="img" aria-label="oh !">
-            😱
-          </span>{' '}
-          Tell me more!{' '}
-          <span role="img" aria-label="love">
-            😍
-          </span>
-        </Text>
+        <span role="img" aria-label="oh !">
+          😱
+        </span>{' '}
+        Tell me more!{' '}
+        <span role="img" aria-label="love">
+          😍
+        </span>
       </StyledButton>
     </Wrapper>
   ))
@@ -101,15 +99,13 @@ storiesOf('Slides/Intro', module)
     <Wrapper>
       <Title>A component story...</Title>
       <StyledButton onClick={linkTo('Components/Tabs')}>
-        <Text size="40px">
-          <span role="img" aria-label="oh !">
-            😱
-          </span>{' '}
-          Tell me more!{' '}
-          <span role="img" aria-label="love">
-            😍
-          </span>
-        </Text>
+        <span role="img" aria-label="oh !">
+          😱
+        </span>{' '}
+        Tell me more!{' '}
+        <span role="img" aria-label="love">
+          😍
+        </span>
       </StyledButton>
     </Wrapper>
   ))
@@ -305,7 +301,6 @@ const Infos = styled(Text).attrs({ size: '30px' })`
 `;
 
 const StyledButton = styled(Button)`
-  width: 400px;
   margin: 0 auto;
   margin-top: 40px;
 `;
