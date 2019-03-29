@@ -6,6 +6,7 @@ import Text from '../../Components/Text';
 import Image from '../../Components/Image';
 import { useBlink } from '../../Utils/CustomHooks';
 import inception from '../../../assets/inception.png';
+import gettingStarted from '../../../assets/getting-started.png';
 import COLORS from '../../Utils/Colors';
 
 storiesOf('Slides/Demo', module)
@@ -32,6 +33,16 @@ storiesOf('Slides/Demo', module)
       <BigTitle style={{ margin: '0 0.4em' }} blink>
         DEMO!
       </BigTitle>
+    </Wrapper>
+  ))
+  .add('Getting started', () => (
+    <Wrapper>
+      <Image
+        src={gettingStarted}
+        alt="Getting started : npx -p @storybook/cli sb init"
+        width={780}
+        height={250}
+      />
     </Wrapper>
   ));
 

@@ -4,7 +4,9 @@ const COLORS = {
   RED: 'red',
   DARK: '#ccc',
   GRAY: '#eee',
-  WHITE: '#fff'
+  WHITE: '#fff',
+  TWITTER: '#00aced',
+  FACEBOOK: '#3b5998'
 };
 
 export default COLORS;
