@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "eslint": "^5.12.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -48,7 +49,6 @@
     "@storybook/storybook-deployer": "^2.8.1",
     "babel-loader": "^8.0.5",
     "babel-plugin-react-docgen": "^2.0.2",
-    "eslint": "^5.15.3",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-import": "^2.16.0",
