@@ -3,7 +3,9 @@ import styled from 'styled-components';
 
 import { storiesOf } from '@storybook/react';
 import Text from '../../Components/Text';
+import Image from '../../Components/Image';
 import { useBlink } from '../../Utils/CustomHooks';
+import inception from '../../../assets/inception.png';
 import COLORS from '../../Utils/Colors';
 
 storiesOf('Slides/Demo', module)
@@ -18,6 +20,18 @@ storiesOf('Slides/Demo', module)
     <Wrapper>
       <Title>Okay, it{"'"}s time for a...</Title>
       <BigTitle style={{ margin: '0 0.4em' }}>DEMO!</BigTitle>
+    </Wrapper>
+  ))
+  .add('Inception', () => (
+    <Wrapper>
+      <Image src={inception} alt="Inception" width={780} height={500} />
+    </Wrapper>
+  ))
+  .add('DEMO with blink', () => (
+    <Wrapper>
+      <BigTitle style={{ margin: '0 0.4em' }} blink>
+        DEMO!
+      </BigTitle>
     </Wrapper>
   ));
 
@@ -40,11 +54,11 @@ const Title = styled(Text).attrs({ size: '60px', weight: 800 })`
   margin: 0.3em 0;
 `;
 
-const BigTitle = ({ children, ...props }) => (
+const BigTitle = ({ children, blink, ...props }) => (
   <Text
     size="120px"
     weight={800}
-    color={useBlink(COLORS.BLUE, 1000)}
+    color={blink ? useBlink() : COLORS.BLACK}
     {...props}
   >
     {children}
