@@ -98,7 +98,9 @@ storiesOf('Components/Tabs', module)
           <Text size="60px">Hello Tab 3</Text>
         </div>
       </Tabs>
-      <StyledButton onClick={linkTo('slides-intro--a-lot-of-combinations')}>
+      <StyledButton
+        onClick={linkTo('slides-intro--a-simple-pagination-component-1')}
+      >
         Okay, thanks!
       </StyledButton>
     </React.Fragment>

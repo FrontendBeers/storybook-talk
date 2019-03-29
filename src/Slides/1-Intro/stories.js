@@ -5,8 +5,8 @@ import { storiesOf } from '@storybook/react';
 import { linkTo } from '@storybook/addon-links';
 import Text from '../../Components/Text';
 import storybookLogo from '../../../assets/storybook.png';
-import complicated from '../../../assets/complicated.png';
 import lauthieb from '../../../assets/lauthieb.jpg';
+import pagination from '../../../assets/pagination.png';
 import Image from '../../Components/Image';
 import Button from '../../Components/Button';
 
@@ -107,6 +107,29 @@ storiesOf('Slides/Intro', module)
           😍
         </span>
       </StyledButton>
+    </Wrapper>
+  ))
+  .add('A simple pagination component 1', () => (
+    <Wrapper>
+      <Title style={{ marginBottom: 60 }}>A simple pagination component</Title>
+      <Image
+        src={pagination}
+        alt="A simple pagination component"
+        width={750}
+        height={400}
+        style={{ opacity: 0 }}
+      />
+    </Wrapper>
+  ))
+  .add('A simple pagination component 2', () => (
+    <Wrapper>
+      <Title style={{ marginBottom: 60 }}>A simple pagination component</Title>
+      <Image
+        src={pagination}
+        alt="A simple pagination component"
+        width={750}
+        height={400}
+      />
     </Wrapper>
   ))
   .add('A lot of combinations...', () => (
@@ -240,19 +263,9 @@ storiesOf('Slides/Intro', module)
       </ListItem>
     </Wrapper>
   ))
-  .add('Building components is complicated 1', () => (
+  .add('Building components is complicated', () => (
     <Wrapper>
       <Title>Building components is complicated</Title>
-    </Wrapper>
-  ))
-  .add('Building components is complicated 2', () => (
-    <Wrapper>
-      <Image
-        src={complicated}
-        alt="Building components is complicated"
-        width={1200}
-        height={400}
-      />
     </Wrapper>
   ))
   .add('We need a solution...', () => (

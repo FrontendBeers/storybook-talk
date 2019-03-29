@@ -3,8 +3,10 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import COLORS from '../../Utils/Colors';
 
-const Button = ({ children, ...props }) => (
-  <StyledButton {...props}>{children}</StyledButton>
+const Button = ({ children, onClick, ...props }) => (
+  <StyledButton onClick={() => onClick('hello')} {...props}>
+    {children}
+  </StyledButton>
 );
 
 export default Button;
