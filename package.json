@@ -44,6 +44,7 @@
     "@storybook/addon-info": "^5.0.5",
     "@storybook/addon-knobs": "^5.0.5",
     "@storybook/addon-links": "^5.0.5",
+    "@storybook/addon-storyshots": "^5.0.5",
     "@storybook/addon-viewport": "^5.0.5",
     "@storybook/addons": "^5.0.5",
     "@storybook/react": "^5.0.5",
@@ -60,6 +61,8 @@
     "lint-staged": "^8.1.5",
     "prettier": "^1.16.4",
     "pretty-quick": "^1.10.0",
-    "react-docgen": "^4.1.0"
+    "react-docgen": "^4.1.0",
+    "react-test-renderer": "^16.8.6",
+    "require-context.macro": "^1.0.4"
   }
 }
