@@ -4,19 +4,15 @@ import styled from 'styled-components';
 
 const FALLBACK_IMAGE = require('../../../assets/fallback.jpg');
 
-const Image = ({ className, fallbackSrc, src, ...props }) => {
-  const imgSrc = src || FALLBACK_IMAGE;
-
-  return (
-    <Wrapper className={className}>
-      <Img {...props} src={imgSrc} />
-    </Wrapper>
-  );
-};
+const Image = ({ className, src, ...props }) => (
+  <Wrapper className={className}>
+    <Img {...props} src={src} />
+  </Wrapper>
+);
 
 Image.propTypes = {
   className: PropTypes.string,
-  src: PropTypes.string.isRequired,
+  src: PropTypes.string,
   alt: PropTypes.string,
   width: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   height: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -25,6 +21,7 @@ Image.propTypes = {
 
 Image.defaultProps = {
   className: undefined,
+  src: FALLBACK_IMAGE,
   alt: undefined,
   width: 400,
   height: 400,

@@ -12,8 +12,6 @@ const Button = ({ children, onClick, ...props }) => (
 export default Button;
 
 Button.defaultProps = {
-  className: undefined,
-  style: undefined,
   type: 'button',
   title: undefined,
   onClick: () => undefined
@@ -21,8 +19,6 @@ Button.defaultProps = {
 
 Button.propTypes = {
   children: PropTypes.node.isRequired,
-  className: PropTypes.string,
-  style: PropTypes.node,
   type: PropTypes.oneOf(['submit', 'reset', 'button']),
   title: PropTypes.string,
   onClick: PropTypes.func

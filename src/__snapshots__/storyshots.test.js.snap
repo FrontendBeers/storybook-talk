@@ -647,110 +647,6 @@ exports[`Storyshots Components/Button Default 1`] = `
                       }
                     }
                   >
-                    className
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    <span>
-                      string
-                    </span>
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    -
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    -
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  />
-                </tr>
-                <tr>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    style
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    <span>
-                      node
-                    </span>
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    -
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    -
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  />
-                </tr>
-                <tr>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
                     type
                   </td>
                   <td
@@ -1603,110 +1499,6 @@ exports[`Storyshots Components/Button With onClick 1`] = `
                       }
                     }
                   >
-                    className
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    <span>
-                      string
-                    </span>
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    -
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    -
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  />
-                </tr>
-                <tr>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    style
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    <span>
-                      node
-                    </span>
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    -
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
-                    -
-                  </td>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  />
-                </tr>
-                <tr>
-                  <td
-                    style={
-                      Object {
-                        "paddingRight": 10,
-                        "verticalAlign": "top",
-                      }
-                    }
-                  >
                     type
                   </td>
                   <td
@@ -2526,7 +2318,7 @@ exports[`Storyshots Components/Image Circle with fallback 1`] = `
                       }
                     }
                   >
-                    yes
+                    -
                   </td>
                   <td
                     style={
@@ -2536,7 +2328,9 @@ exports[`Storyshots Components/Image Circle with fallback 1`] = `
                       }
                     }
                   >
-                    -
+                    <span>
+                      fallback.jpg
+                    </span>
                   </td>
                   <td
                     style={
@@ -3456,7 +3250,7 @@ exports[`Storyshots Components/Image Circle with src 1`] = `
                       }
                     }
                   >
-                    yes
+                    -
                   </td>
                   <td
                     style={
@@ -3466,7 +3260,9 @@ exports[`Storyshots Components/Image Circle with src 1`] = `
                       }
                     }
                   >
-                    -
+                    <span>
+                      fallback.jpg
+                    </span>
                   </td>
                   <td
                     style={
@@ -4349,7 +4145,7 @@ exports[`Storyshots Components/Image Default 1`] = `
                       }
                     }
                   >
-                    yes
+                    -
                   </td>
                   <td
                     style={
@@ -4359,7 +4155,9 @@ exports[`Storyshots Components/Image Default 1`] = `
                       }
                     }
                   >
-                    -
+                    <span>
+                      fallback.jpg
+                    </span>
                   </td>
                   <td
                     style={
@@ -5324,7 +5122,7 @@ exports[`Storyshots Components/Image With knobs 1`] = `
                       }
                     }
                   >
-                    yes
+                    -
                   </td>
                   <td
                     style={
@@ -5334,7 +5132,9 @@ exports[`Storyshots Components/Image With knobs 1`] = `
                       }
                     }
                   >
-                    -
+                    <span>
+                      fallback.jpg
+                    </span>
                   </td>
                   <td
                     style={
@@ -6246,7 +6046,7 @@ exports[`Storyshots Components/Image With src 1`] = `
                       }
                     }
                   >
-                    yes
+                    -
                   </td>
                   <td
                     style={
@@ -6256,7 +6056,9 @@ exports[`Storyshots Components/Image With src 1`] = `
                       }
                     }
                   >
-                    -
+                    <span>
+                      fallback.jpg
+                    </span>
                   </td>
                   <td
                     style={
