@@ -71,13 +71,13 @@ const TabButton = styled.button`
   color: ${props => (props.isDisabled ? COLORS.DARK : COLORS.BLACK)};
   border-radius: 10px 10px 0 0;
   border-bottom: 4px solid
-    ${props => (props.isSelected ? COLORS.BLUE : COLORS.WHITE)};
+    ${props => (props.isSelected ? COLORS.PINK : COLORS.WHITE)};
 
   &:hover,
   &:focus,
   &:active {
     border-bottom: 4px solid
-      ${props => (props.isSelected ? COLORS.BLUE : COLORS.GRAY)};
+      ${props => (props.isSelected ? COLORS.PINK : COLORS.GRAY)};
     cursor: ${props => (props.isDisabled ? 'not-allowed' : 'pointer')};
   }
 `;

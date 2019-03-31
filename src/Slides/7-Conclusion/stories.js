@@ -15,7 +15,7 @@ storiesOf('Slides/Conclusion', module)
   .add('Storybook', () => (
     <Wrapper>
       <Image src={storybookLogo} alt="Storybook" width={160} height={160} />
-      <Title>Storybook</Title>
+      <BigTitle style={{ margin: '24px 0' }}>Storybook</BigTitle>
       <Subtitle>
         The playground you need for your UI components!{' '}
         <span role="img" aria-label="tada">
@@ -27,10 +27,10 @@ storiesOf('Slides/Conclusion', module)
   .add('Thanks!', () => (
     <Wrapper>
       <Image src={storybookLogo} alt="Storybook" width={160} height={160} />
-      <BigTitle style={{ marginTop: '24px' }} blink={boolean('blink', true)}>
+      <BigTitle style={{ margin: '24px 0' }} blink={boolean('blink', true)}>
         Thanks!
       </BigTitle>
-      <Subtitle style={{ fontSize: '30px' }}>
+      <Subtitle style={{ fontSize: '26px' }}>
         Slides{"'"} source code:{' '}
         <a
           href="https://github.com/ReactBeerLille/storybook-talk"
@@ -56,10 +56,6 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-`;
-
-const Title = styled(Text).attrs({ size: '80px', weight: 800 })`
-  margin: 0.2em 0;
 `;
 
 const Subtitle = styled(Text).attrs({ size: '42px', weight: 500 })``;

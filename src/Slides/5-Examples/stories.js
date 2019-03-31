@@ -8,17 +8,23 @@ import airbnb from '../../../assets/airbnb.png';
 import salesforce from '../../../assets/salesforce.png';
 import auth0 from '../../../assets/auth0.png';
 import github from '../../../assets/github.png';
+import { Highlight } from '../../Utils/Highlight';
 
 storiesOf('Slides/Examples', module)
   .addDecorator(storyFn => <StoryWrapper>{storyFn()}</StoryWrapper>)
   .add('Deployment', () => (
     <Wrapper>
-      <Title>We can build it statically & deploy it easily</Title>
+      <Title>
+        We can <Highlight>build</Highlight> it statically &{' '}
+        <Highlight>deploy</Highlight> it easily
+      </Title>
     </Wrapper>
   ))
   .add('Some great examples', () => (
     <Wrapper>
-      <Title style={{ marginBottom: '80px' }}>Some great examples</Title>
+      <Title style={{ marginBottom: '80px' }}>
+        Some great <Highlight>examples</Highlight>
+      </Title>
       <FlexWrapper>
         <Link href="https://airbnb.io/react-dates/" target="_blank">
           <Image

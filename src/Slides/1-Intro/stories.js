@@ -9,6 +9,7 @@ import lauthieb from '../../../assets/lauthieb.jpg';
 import pagination from '../../../assets/pagination.png';
 import Image from '../../Components/Image';
 import Button from '../../Components/Button';
+import { Highlight } from '../../Utils/Highlight';
 
 storiesOf('Slides/Intro', module)
   .addDecorator(storyFn => <StoryWrapper>{storyFn()}</StoryWrapper>)
@@ -95,7 +96,9 @@ storiesOf('Slides/Intro', module)
   ))
   .add('A component story...', () => (
     <Wrapper>
-      <Title>A component story...</Title>
+      <Title>
+        A <Highlight>component</Highlight> story...
+      </Title>
       <StyledButton style={{ opacity: 0 }} onClick={linkTo('Components/Tabs')}>
         <span role="img" aria-label="oh !">
           😱
@@ -109,7 +112,9 @@ storiesOf('Slides/Intro', module)
   ))
   .add('Tell me more!', () => (
     <Wrapper>
-      <Title>A component story...</Title>
+      <Title>
+        A <Highlight>component</Highlight> story...
+      </Title>
       <StyledButton onClick={linkTo('Components/Tabs')}>
         <span role="img" aria-label="oh !">
           😱
@@ -123,7 +128,9 @@ storiesOf('Slides/Intro', module)
   ))
   .add('A simple pagination component 1', () => (
     <Wrapper>
-      <Title style={{ marginBottom: 60 }}>A simple pagination component</Title>
+      <Title style={{ marginBottom: 60 }}>
+        A simple <Highlight>pagination</Highlight> component
+      </Title>
       <Image
         src={pagination}
         alt="A simple pagination component"
@@ -135,7 +142,9 @@ storiesOf('Slides/Intro', module)
   ))
   .add('A simple pagination component 2', () => (
     <Wrapper>
-      <Title style={{ marginBottom: 60 }}>A simple pagination component</Title>
+      <Title style={{ marginBottom: 60 }}>
+        A simple <Highlight>pagination</Highlight> component
+      </Title>
       <Image
         src={pagination}
         alt="A simple pagination component"
@@ -146,7 +155,9 @@ storiesOf('Slides/Intro', module)
   ))
   .add('A lot of combinations...', () => (
     <Wrapper>
-      <Title>There is a lot of combinations...</Title>
+      <Title>
+        There is a lot of <Highlight>combinations</Highlight>...
+      </Title>
       <iframe
         title="confused"
         src="https://giphy.com/embed/3o7btPCcdNniyf0ArS"
@@ -161,12 +172,16 @@ storiesOf('Slides/Intro', module)
   ))
   .add('What if a new developer arrives?', () => (
     <Wrapper>
-      <Title>What if a new developer arrives?</Title>
+      <Title>
+        What if a <Highlight>new developer</Highlight> arrives?
+      </Title>
     </Wrapper>
   ))
   .add('Or if you come back in 6 months?', () => (
     <Wrapper>
-      <Title>Or if you come back in 6 months?</Title>
+      <Title>
+        Or if you <Highlight>come back</Highlight> in 6 months?
+      </Title>
     </Wrapper>
   ))
   .add('Brain explosion & time consuming!', () => (
@@ -185,7 +200,9 @@ storiesOf('Slides/Intro', module)
   ))
   .add('Components introduce new challenges 1', () => (
     <Wrapper>
-      <Title>Components introduce new challenges</Title>
+      <Title>
+        Components introduce <Highlight>new challenges</Highlight>
+      </Title>
       <ListItem style={{ opacity: 0 }}>
         <span role="img" aria-label="explosion">
           💥
@@ -208,7 +225,9 @@ storiesOf('Slides/Intro', module)
   ))
   .add('Components introduce new challenges 2', () => (
     <Wrapper>
-      <Title>Components introduce new challenges</Title>
+      <Title>
+        Components introduce <Highlight>new challenges</Highlight>
+      </Title>
       <ListItem>
         <span role="img" aria-label="explosion">
           💥
@@ -231,7 +250,9 @@ storiesOf('Slides/Intro', module)
   ))
   .add('Components introduce new challenges 3', () => (
     <Wrapper>
-      <Title>Components introduce new challenges</Title>
+      <Title>
+        Components introduce <Highlight>new challenges</Highlight>
+      </Title>
       <ListItem>
         <span role="img" aria-label="explosion">
           💥
@@ -254,7 +275,9 @@ storiesOf('Slides/Intro', module)
   ))
   .add('Components introduce new challenges 4', () => (
     <Wrapper>
-      <Title>Components introduce new challenges</Title>
+      <Title>
+        Components introduce <Highlight>new challenges</Highlight>
+      </Title>
       <ListItem>
         <span role="img" aria-label="explosion">
           💥
@@ -277,13 +300,15 @@ storiesOf('Slides/Intro', module)
   ))
   .add('Building components is complicated', () => (
     <Wrapper>
-      <Title>Building components is complicated</Title>
+      <Title>
+        Building components is <Highlight>complicated</Highlight>
+      </Title>
     </Wrapper>
   ))
   .add('We need a solution...', () => (
     <Wrapper>
       <Title>
-        We need a solution...{' '}
+        We need a <Highlight>solution</Highlight>{' '}
         <span role="img" aria-label="love">
           🙏
         </span>

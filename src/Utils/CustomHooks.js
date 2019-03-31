@@ -14,7 +14,7 @@ export function useInterval(callback, delay) {
   }, [delay]);
 }
 
-export function useBlink(initialColor = COLORS.BLUE, delay = 600) {
+export function useBlink(initialColor = COLORS.PINK, delay = 600) {
   const [color, setColor] = useState(initialColor);
 
   useInterval(() => {

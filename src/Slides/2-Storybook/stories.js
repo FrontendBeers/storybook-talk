@@ -10,6 +10,7 @@ import storybookBuildComponents from '../../../assets/storybook-build-components
 import storybookStories from '../../../assets/storybook-stories.png';
 import storybookAddons from '../../../assets/storybook-addons.png';
 import Image from '../../Components/Image';
+import { Highlight } from '../../Utils/Highlight';
 
 storiesOf('Slides/Storybook', module)
   .addDecorator(storyFn => <StoryWrapper>{storyFn()}</StoryWrapper>)
@@ -31,7 +32,9 @@ storiesOf('Slides/Storybook', module)
   ))
   .add('Storybook lives alongside your app', () => (
     <Wrapper>
-      <Title>Storybook lives alongside your app</Title>
+      <Title>
+        Storybook lives <Highlight>alongside</Highlight> your app
+      </Title>
       <Image
         src={storybookLife}
         alt="Storybook lives alongside your app"
@@ -43,7 +46,9 @@ storiesOf('Slides/Storybook', module)
   ))
   .add('Build components and use cases in isolation', () => (
     <Wrapper>
-      <Title>Build components and use cases in isolation</Title>
+      <Title>
+        Build components and use cases in <Highlight>isolation</Highlight>
+      </Title>
       <Image
         src={storybookBuildComponents}
         alt="Build components and use cases in isolation"
@@ -55,7 +60,9 @@ storiesOf('Slides/Storybook', module)
   ))
   .add('Save use cases as stories', () => (
     <Wrapper>
-      <Title>Save use cases as stories</Title>
+      <Title>
+        Save <Highlight>use cases</Highlight> as stories
+      </Title>
       <Image
         src={storybookStories}
         alt="Save use cases as stories"
@@ -67,7 +74,9 @@ storiesOf('Slides/Storybook', module)
   ))
   .add('Customize functionality with addons', () => (
     <Wrapper>
-      <Title>Customize functionality with addons</Title>
+      <Title>
+        Customize functionality with <Highlight>addons</Highlight>
+      </Title>
       <Image
         src={storybookAddons}
         alt="Customize functionality with addons"

@@ -8,6 +8,7 @@ import { useBlink } from '../../Utils/CustomHooks';
 import inception from '../../../assets/inception.png';
 import gettingStarted from '../../../assets/getting-started.png';
 import COLORS from '../../Utils/Colors';
+import { Highlight } from '../../Utils/Highlight';
 
 storiesOf('Slides/Demo', module)
   .addDecorator(storyFn => <StoryWrapper>{storyFn()}</StoryWrapper>)
@@ -20,7 +21,9 @@ storiesOf('Slides/Demo', module)
   .add('DEMO!', () => (
     <Wrapper>
       <Title>Okay, it{"'"}s time for a...</Title>
-      <BigTitle style={{ margin: '0 0.4em' }}>DEMO!</BigTitle>
+      <BigTitle style={{ margin: '0 0.4em' }}>
+        <Highlight>DEMO!</Highlight>
+      </BigTitle>
     </Wrapper>
   ))
   .add('Inception', () => (
