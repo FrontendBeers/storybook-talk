@@ -54,7 +54,7 @@ storiesOf('Slides/Intro', module)
         </span>
       </Subtitle>
       <Infos>
-        <div>
+        <Info>
           <span role="img" aria-label="twitter">
             🐦
           </span>{' '}
@@ -65,8 +65,8 @@ storiesOf('Slides/Intro', module)
           >
             twitter.com/lauthieb
           </a>
-        </div>
-        <div>
+        </Info>
+        <Info>
           <span role="img" aria-label="github">
             😺
           </span>{' '}
@@ -77,7 +77,19 @@ storiesOf('Slides/Intro', module)
           >
             github.com/lauthieb
           </a>
-        </div>
+        </Info>
+        <Info>
+          <span role="img" aria-label="blog">
+            📝
+          </span>{' '}
+          <a
+            href="https://dev.to/lauthieb"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            dev.to/lauthieb
+          </a>
+        </Info>
       </Infos>
     </Wrapper>
   ))
@@ -295,7 +307,7 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled(Text).attrs({ size: '80px', weight: 800 })`
-  margin: 0.3em 0;
+  margin: 0.2em 0;
 `;
 
 const Subtitle = styled(Text).attrs({ size: '42px', weight: 500 })``;
@@ -308,9 +320,13 @@ const ListItem = styled(Text).attrs({
 `;
 
 const Infos = styled(Text).attrs({ size: '30px' })`
-  margin-top: 3.5em;
+  margin-top: 28px;
   font-size: 30px;
   font-weight: 400;
+`;
+
+const Info = styled.div`
+  margin-bottom: 10px;
 `;
 
 const StyledButton = styled(Button)`
