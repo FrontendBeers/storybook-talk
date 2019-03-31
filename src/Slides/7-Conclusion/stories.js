@@ -30,6 +30,16 @@ storiesOf('Slides/Conclusion', module)
       <BigTitle style={{ marginTop: '24px' }} blink={boolean('blink', true)}>
         Thanks!
       </BigTitle>
+      <Subtitle style={{ fontSize: '30px' }}>
+        Slides{"'"} source code:{' '}
+        <a
+          href="https://github.com/ReactBeerLille/storybook-talk"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://github.com/ReactBeerLille/storybook-talk
+        </a>
+      </Subtitle>
     </Wrapper>
   ));
 
