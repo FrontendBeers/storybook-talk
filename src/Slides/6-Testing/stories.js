@@ -9,7 +9,9 @@ storiesOf('Slides/Testing', module)
   .addDecorator(storyFn => <StoryWrapper>{storyFn()}</StoryWrapper>)
   .add('UI Testing', () => (
     <Wrapper>
-      <BigTitle>UI Testing</BigTitle>
+      <BigTitle>
+        <Highlight>UI</Highlight> Testing
+      </BigTitle>
     </Wrapper>
   ))
   .add('Why do we need to test? 1', () => (
