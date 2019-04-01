@@ -11,7 +11,7 @@ exports[`Storyshots Components/Button Default 1`] = `
     }
   >
     <div
-      className="sc-kAzzGY jJriye"
+      className="sc-brqgnP fSAimE"
     >
       <button
         className="sc-bxivhb isMdZS"
@@ -835,7 +835,7 @@ exports[`Storyshots Components/Button With onClick 1`] = `
     }
   >
     <div
-      className="sc-kAzzGY jJriye"
+      className="sc-brqgnP fSAimE"
     >
       <button
         className="sc-bxivhb isMdZS"
@@ -1687,7 +1687,7 @@ exports[`Storyshots Components/Image Circle with fallback 1`] = `
     }
   >
     <div
-      className="sc-chPdSV hnUZsy"
+      className="sc-cMljjf cGbluR"
     >
       <span
         className="sc-bwzfXH ghuPdm"
@@ -2592,7 +2592,7 @@ exports[`Storyshots Components/Image Circle with src 1`] = `
     }
   >
     <div
-      className="sc-chPdSV hnUZsy"
+      className="sc-cMljjf cGbluR"
     >
       <span
         className="sc-bwzfXH ghuPdm"
@@ -3524,7 +3524,7 @@ exports[`Storyshots Components/Image Default 1`] = `
     }
   >
     <div
-      className="sc-chPdSV hnUZsy"
+      className="sc-cMljjf cGbluR"
     >
       <span
         className="sc-bwzfXH ghuPdm"
@@ -4419,7 +4419,7 @@ exports[`Storyshots Components/Image With knobs 1`] = `
     }
   >
     <div
-      className="sc-chPdSV hnUZsy"
+      className="sc-cMljjf cGbluR"
     >
       <span
         className="sc-bwzfXH ghuPdm"
@@ -5396,7 +5396,7 @@ exports[`Storyshots Components/Image With src 1`] = `
     }
   >
     <div
-      className="sc-chPdSV hnUZsy"
+      className="sc-cMljjf cGbluR"
     >
       <span
         className="sc-bwzfXH ghuPdm"
@@ -6320,7 +6320,7 @@ exports[`Storyshots Components/Tabs Default 1`] = `
     }
   >
     <div
-      className="sc-ckVGcZ jYEjXF"
+      className="sc-jlyJG jSXpKO"
     >
       <p
         className="sc-bdVaJa fEiwOK"
@@ -6330,15 +6330,15 @@ exports[`Storyshots Components/Tabs Default 1`] = `
         A Tabs component...
       </p>
       <div
-        className="sc-kgoBCf jBYmfu"
+        className="sc-jAaTju hoffxp"
       >
         <div
-          className="sc-kpOJdX jlTTdf"
+          className="sc-gPEVay hCKbhy"
           role="tablist"
         >
           <button
             aria-selected="true"
-            className="sc-kGXeez kBffZv"
+            className="sc-jDwBTQ jnUIJm"
             onClick={[Function]}
             role="tab"
           >
@@ -6346,7 +6346,7 @@ exports[`Storyshots Components/Tabs Default 1`] = `
           </button>
           <button
             aria-selected="false"
-            className="sc-kGXeez idCgkX"
+            className="sc-jDwBTQ koGZrI"
             onClick={[Function]}
             role="tab"
           >
@@ -6354,7 +6354,7 @@ exports[`Storyshots Components/Tabs Default 1`] = `
           </button>
           <button
             aria-selected="false"
-            className="sc-kGXeez idCgkX"
+            className="sc-jDwBTQ koGZrI"
             onClick={[Function]}
             role="tab"
           >
@@ -6362,7 +6362,7 @@ exports[`Storyshots Components/Tabs Default 1`] = `
           </button>
         </div>
         <div
-          className="sc-dxgOiQ fXYWTO"
+          className="sc-iRbamj eYYuRs"
         >
           <div
             label="Tab 1"
@@ -8228,7 +8228,7 @@ exports[`Storyshots Components/Tabs With a disabled tab 1`] = `
     }
   >
     <div
-      className="sc-ckVGcZ jYEjXF"
+      className="sc-jlyJG jSXpKO"
     >
       <p
         className="sc-bdVaJa fEiwOK"
@@ -8238,15 +8238,15 @@ exports[`Storyshots Components/Tabs With a disabled tab 1`] = `
         A Tabs component...
       </p>
       <div
-        className="sc-kgoBCf jBYmfu"
+        className="sc-jAaTju hoffxp"
       >
         <div
-          className="sc-kpOJdX jlTTdf"
+          className="sc-gPEVay hCKbhy"
           role="tablist"
         >
           <button
             aria-selected="true"
-            className="sc-kGXeez kBffZv"
+            className="sc-jDwBTQ jnUIJm"
             onClick={[Function]}
             role="tab"
           >
@@ -8254,7 +8254,7 @@ exports[`Storyshots Components/Tabs With a disabled tab 1`] = `
           </button>
           <button
             aria-selected="false"
-            className="sc-kGXeez cZKGLr"
+            className="sc-jDwBTQ gQKLuT"
             onClick={[Function]}
             role="tab"
           >
@@ -8262,7 +8262,7 @@ exports[`Storyshots Components/Tabs With a disabled tab 1`] = `
           </button>
           <button
             aria-selected="false"
-            className="sc-kGXeez idCgkX"
+            className="sc-jDwBTQ koGZrI"
             onClick={[Function]}
             role="tab"
           >
@@ -8270,7 +8270,7 @@ exports[`Storyshots Components/Tabs With a disabled tab 1`] = `
           </button>
         </div>
         <div
-          className="sc-dxgOiQ fXYWTO"
+          className="sc-iRbamj eYYuRs"
         >
           <div
             label="Tab 1"
@@ -9901,7 +9901,7 @@ exports[`Storyshots Components/Tabs With all tabs disabled 1`] = `
     }
   >
     <div
-      className="sc-ckVGcZ jYEjXF"
+      className="sc-jlyJG jSXpKO"
     >
       <p
         className="sc-bdVaJa fEiwOK"
@@ -9911,15 +9911,15 @@ exports[`Storyshots Components/Tabs With all tabs disabled 1`] = `
         A Tabs component...
       </p>
       <div
-        className="sc-kgoBCf jBYmfu"
+        className="sc-jAaTju hoffxp"
       >
         <div
-          className="sc-kpOJdX jlTTdf"
+          className="sc-gPEVay hCKbhy"
           role="tablist"
         >
           <button
             aria-selected="true"
-            className="sc-kGXeez gGvcWL"
+            className="sc-jDwBTQ gHFNyy"
             onClick={[Function]}
             role="tab"
           >
@@ -9927,7 +9927,7 @@ exports[`Storyshots Components/Tabs With all tabs disabled 1`] = `
           </button>
           <button
             aria-selected="false"
-            className="sc-kGXeez cZKGLr"
+            className="sc-jDwBTQ gQKLuT"
             onClick={[Function]}
             role="tab"
           >
@@ -9935,7 +9935,7 @@ exports[`Storyshots Components/Tabs With all tabs disabled 1`] = `
           </button>
           <button
             aria-selected="false"
-            className="sc-kGXeez cZKGLr"
+            className="sc-jDwBTQ gQKLuT"
             onClick={[Function]}
             role="tab"
           >
@@ -9943,7 +9943,7 @@ exports[`Storyshots Components/Tabs With all tabs disabled 1`] = `
           </button>
         </div>
         <div
-          className="sc-dxgOiQ fXYWTO"
+          className="sc-iRbamj eYYuRs"
         >
           <div
             label="Tab 1"
@@ -9959,7 +9959,7 @@ exports[`Storyshots Components/Tabs With all tabs disabled 1`] = `
         </div>
       </div>
       <button
-        className="sc-jKJlTe enYRYS sc-bxivhb isMdZS"
+        className="sc-gipzik gylBGl sc-bxivhb isMdZS"
         onClick={[Function]}
         type="button"
       >
@@ -11966,7 +11966,7 @@ exports[`Storyshots Components/Text Default 1`] = `
     }
   >
     <div
-      className="sc-eNQAEJ bwRQUX"
+      className="sc-csuQGl gsgTpD"
     >
       <p
         className="sc-bdVaJa iOOlLR"
@@ -12792,7 +12792,7 @@ exports[`Storyshots Components/Text With color picker 1`] = `
     }
   >
     <div
-      className="sc-eNQAEJ bwRQUX"
+      className="sc-csuQGl gsgTpD"
     >
       <p
         className="sc-bdVaJa fEiwOK"
@@ -13647,7 +13647,7 @@ exports[`Storyshots Components/Text With knobs 1`] = `
     }
   >
     <div
-      className="sc-eNQAEJ bwRQUX"
+      className="sc-csuQGl gsgTpD"
     >
       <p
         className="sc-bdVaJa fEiwOK"
@@ -14491,16 +14491,120 @@ exports[`Storyshots Components/Text With knobs 1`] = `
 </div>
 `;
 
-exports[`Storyshots Slides/Demo DEMO with blink 1`] = `
+exports[`Storyshots Slides/Conclusion Storybook 1`] = `
 <div
-  className="sc-fjdhpX fxrycF"
+  className="sc-eHgmQL cgtfSk"
 >
   <div
-    className="sc-jzJRlG guYnOb"
+    className="sc-cvbbAY kpqGew"
+  >
+    <span
+      className="sc-bwzfXH ghuPdm"
+    >
+      <img
+        alt="Storybook"
+        className="sc-htpNat jmSusC"
+        height={160}
+        src="storybook.png"
+        width={160}
+      />
+    </span>
+    <p
+      className="sc-bdVaJa iFWMJO"
+      color="#000"
+      size="120px"
+      style={
+        Object {
+          "margin": "24px 0",
+        }
+      }
+    >
+      Storybook
+    </p>
+    <p
+      className="sc-jWBwVP fDrbnp sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+    >
+      The playground you need for your UI components!
+       
+      <span
+        aria-label="tada"
+        role="img"
+      >
+        🎨
+      </span>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Conclusion Thanks! 1`] = `
+<div
+  className="sc-eHgmQL cgtfSk"
+>
+  <div
+    className="sc-cvbbAY kpqGew"
+  >
+    <span
+      className="sc-bwzfXH ghuPdm"
+    >
+      <img
+        alt="Storybook"
+        className="sc-htpNat jmSusC"
+        height={160}
+        src="storybook.png"
+        width={160}
+      />
+    </span>
+    <p
+      className="sc-bdVaJa jaeJLi"
+      color="#ff4685"
+      size="120px"
+      style={
+        Object {
+          "margin": "24px 0",
+        }
+      }
+    >
+      Thanks!
+    </p>
+    <p
+      className="sc-jWBwVP fDrbnp sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+      style={
+        Object {
+          "fontSize": "26px",
+        }
+      }
+    >
+      Slides
+      '
+       source code:
+       
+      <a
+        href="https://github.com/ReactBeerLille/storybook-talk"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        https://github.com/ReactBeerLille/storybook-talk
+      </a>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Demo DEMO with blink 1`] = `
+<div
+  className="sc-cSHVUG fOucUL"
+>
+  <div
+    className="sc-kAzzGY gUhNFc"
   >
     <p
-      className="sc-bdVaJa iONYXQ"
-      color="#00aced"
+      className="sc-bdVaJa jaeJLi"
+      color="#ff4685"
       size="120px"
       style={
         Object {
@@ -14516,13 +14620,13 @@ exports[`Storyshots Slides/Demo DEMO with blink 1`] = `
 
 exports[`Storyshots Slides/Demo DEMO! 1`] = `
 <div
-  className="sc-fjdhpX fxrycF"
+  className="sc-cSHVUG fOucUL"
 >
   <div
-    className="sc-jzJRlG guYnOb"
+    className="sc-kAzzGY gUhNFc"
   >
     <p
-      className="sc-cSHVUG hhMcKi sc-bdVaJa bvaadn"
+      className="sc-chPdSV gBDzuT sc-bdVaJa bvaadn"
       color="#000"
       size="60px"
     >
@@ -14540,7 +14644,11 @@ exports[`Storyshots Slides/Demo DEMO! 1`] = `
         }
       }
     >
-      DEMO!
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        DEMO!
+      </span>
     </p>
   </div>
 </div>
@@ -14548,10 +14656,10 @@ exports[`Storyshots Slides/Demo DEMO! 1`] = `
 
 exports[`Storyshots Slides/Demo Getting started 1`] = `
 <div
-  className="sc-fjdhpX fxrycF"
+  className="sc-cSHVUG fOucUL"
 >
   <div
-    className="sc-jzJRlG guYnOb"
+    className="sc-kAzzGY gUhNFc"
   >
     <span
       className="sc-bwzfXH ghuPdm"
@@ -14570,10 +14678,10 @@ exports[`Storyshots Slides/Demo Getting started 1`] = `
 
 exports[`Storyshots Slides/Demo Inception 1`] = `
 <div
-  className="sc-fjdhpX fxrycF"
+  className="sc-cSHVUG fOucUL"
 >
   <div
-    className="sc-jzJRlG guYnOb"
+    className="sc-kAzzGY gUhNFc"
   >
     <span
       className="sc-bwzfXH ghuPdm"
@@ -14592,13 +14700,13 @@ exports[`Storyshots Slides/Demo Inception 1`] = `
 
 exports[`Storyshots Slides/Demo It's time for a... 1`] = `
 <div
-  className="sc-fjdhpX fxrycF"
+  className="sc-cSHVUG fOucUL"
 >
   <div
-    className="sc-jzJRlG guYnOb"
+    className="sc-kAzzGY gUhNFc"
   >
     <p
-      className="sc-cSHVUG hhMcKi sc-bdVaJa bvaadn"
+      className="sc-chPdSV gBDzuT sc-bdVaJa bvaadn"
       color="#000"
       size="60px"
     >
@@ -14623,22 +14731,179 @@ exports[`Storyshots Slides/Demo It's time for a... 1`] = `
 </div>
 `;
 
-exports[`Storyshots Slides/Intro A component story... 1`] = `
+exports[`Storyshots Slides/Examples Deployment 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-dxgOiQ cgQVzw"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-ckVGcZ ccDxOR"
   >
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-hMqMXs ejeNtp sc-bdVaJa iuIXIB"
+      color="#000"
+      size="70px"
+    >
+      We can 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        build
+      </span>
+       it statically &
+       
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        deploy
+      </span>
+       it easily
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Examples Some great examples 1`] = `
+<div
+  className="sc-dxgOiQ cgQVzw"
+>
+  <div
+    className="sc-ckVGcZ ccDxOR"
+  >
+    <p
+      className="sc-hMqMXs ejeNtp sc-bdVaJa iuIXIB"
+      color="#000"
+      size="70px"
+      style={
+        Object {
+          "marginBottom": "80px",
+        }
+      }
+    >
+      Some great 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        examples
+      </span>
+    </p>
+    <div
+      className="sc-jKJlTe cngXqQ"
+    >
+      <a
+        className="sc-eNQAEJ lppskl"
+        href="https://airbnb.io/react-dates/"
+        target="_blank"
+      >
+        <span
+          className="sc-bwzfXH ghuPdm"
+        >
+          <img
+            alt="airbnb react-dates"
+            className="sc-htpNat liTaHk"
+            height={80}
+            src="airbnb.png"
+            style={
+              Object {
+                "marginTop": 50,
+              }
+            }
+            width={270}
+          />
+        </span>
+      </a>
+      <a
+        className="sc-eNQAEJ lppskl"
+        href="https://mashmatrix.github.io/react-lightning-design-system/"
+        target="_blank"
+      >
+        <span
+          className="sc-bwzfXH ghuPdm"
+        >
+          <img
+            alt="salesforce react design system"
+            className="sc-htpNat huwEGd"
+            height={180}
+            src="salesforce.png"
+            style={
+              Object {
+                "marginTop": 50,
+              }
+            }
+            width={270}
+          />
+        </span>
+      </a>
+      <a
+        className="sc-eNQAEJ lppskl"
+        href="https://auth0-cosmos.now.sh/sandbox/"
+        target="_blank"
+      >
+        <span
+          className="sc-bwzfXH ghuPdm"
+        >
+          <img
+            alt="auth0 cosmos"
+            className="sc-htpNat ekxNit"
+            height={100}
+            src="auth0.png"
+            style={
+              Object {
+                "marginTop": 50,
+              }
+            }
+            width={270}
+          />
+        </span>
+      </a>
+      <a
+        className="sc-eNQAEJ lppskl"
+        href="https://primer.github.io/storybook/"
+        target="_blank"
+      >
+        <span
+          className="sc-bwzfXH ghuPdm"
+        >
+          <img
+            alt="github primer"
+            className="sc-htpNat ieQAlO"
+            height={110}
+            src="github.png"
+            style={
+              Object {
+                "marginTop": 50,
+              }
+            }
+            width={270}
+          />
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Intro A component story... 1`] = `
+<div
+  className="sc-EHOje pTGQh"
+>
+  <div
+    className="sc-bZQynM fMtTNs"
+  >
+    <p
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
     >
-      A component story...
+      A 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        component
+      </span>
+       story...
     </p>
     <button
-      className="sc-iwsKbI dZFthU sc-bxivhb isMdZS"
+      className="sc-gqjmRU dBzyce sc-bxivhb isMdZS"
       onClick={[Function]}
       style={
         Object {
@@ -14669,17 +14934,23 @@ exports[`Storyshots Slides/Intro A component story... 1`] = `
 
 exports[`Storyshots Slides/Intro A lot of combinations... 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
     >
-      There is a lot of combinations...
+      There is a lot of 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        combinations
+      </span>
+      ...
     </p>
     <iframe
       allowFullScreen={true}
@@ -14702,13 +14973,13 @@ exports[`Storyshots Slides/Intro A lot of combinations... 1`] = `
 
 exports[`Storyshots Slides/Intro A simple pagination component 1 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
       style={
@@ -14717,7 +14988,13 @@ exports[`Storyshots Slides/Intro A simple pagination component 1 1`] = `
         }
       }
     >
-      A simple pagination component
+      A simple 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        pagination
+      </span>
+       component
     </p>
     <span
       className="sc-bwzfXH ghuPdm"
@@ -14741,13 +15018,13 @@ exports[`Storyshots Slides/Intro A simple pagination component 1 1`] = `
 
 exports[`Storyshots Slides/Intro A simple pagination component 2 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
       style={
@@ -14756,7 +15033,13 @@ exports[`Storyshots Slides/Intro A simple pagination component 2 1`] = `
         }
       }
     >
-      A simple pagination component
+      A simple 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        pagination
+      </span>
+       component
     </p>
     <span
       className="sc-bwzfXH ghuPdm"
@@ -14775,10 +15058,10 @@ exports[`Storyshots Slides/Intro A simple pagination component 2 1`] = `
 
 exports[`Storyshots Slides/Intro About @lauthieb 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <span
       className="sc-bwzfXH ghuPdm"
@@ -14792,14 +15075,14 @@ exports[`Storyshots Slides/Intro About @lauthieb 1`] = `
       />
     </span>
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
     >
       Laurent Thiebault
     </p>
     <p
-      className="sc-gzVnrw ibZhkv sc-bdVaJa aZHze"
+      className="sc-htoDjs bZzhDu sc-bdVaJa aZHze"
       color="#000"
       size="42px"
     >
@@ -14820,11 +15103,13 @@ exports[`Storyshots Slides/Intro About @lauthieb 1`] = `
       </span>
     </p>
     <p
-      className="sc-dnqmqq dJOdge sc-bdVaJa cBVWqd"
+      className="sc-iwsKbI htOEeN sc-bdVaJa cBVWqd"
       color="#000"
       size="30px"
     >
-      <div>
+      <div
+        className="sc-gZMcBi izdOyA"
+      >
         <span
           aria-label="twitter"
           role="img"
@@ -14840,7 +15125,9 @@ exports[`Storyshots Slides/Intro About @lauthieb 1`] = `
           twitter.com/lauthieb
         </a>
       </div>
-      <div>
+      <div
+        className="sc-gZMcBi izdOyA"
+      >
         <span
           aria-label="github"
           role="img"
@@ -14856,6 +15143,24 @@ exports[`Storyshots Slides/Intro About @lauthieb 1`] = `
           github.com/lauthieb
         </a>
       </div>
+      <div
+        className="sc-gZMcBi izdOyA"
+      >
+        <span
+          aria-label="blog"
+          role="img"
+        >
+          📝
+        </span>
+         
+        <a
+          href="https://dev.to/lauthieb"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          dev.to/lauthieb
+        </a>
+      </div>
     </p>
   </div>
 </div>
@@ -14863,10 +15168,10 @@ exports[`Storyshots Slides/Intro About @lauthieb 1`] = `
 
 exports[`Storyshots Slides/Intro Brain explosion & time consuming! 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <iframe
       allowFullScreen={true}
@@ -14888,17 +15193,22 @@ exports[`Storyshots Slides/Intro Brain explosion & time consuming! 1`] = `
 
 exports[`Storyshots Slides/Intro Building components is complicated 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
     >
-      Building components is complicated
+      Building components is 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        complicated
+      </span>
     </p>
   </div>
 </div>
@@ -14906,20 +15216,25 @@ exports[`Storyshots Slides/Intro Building components is complicated 1`] = `
 
 exports[`Storyshots Slides/Intro Components introduce new challenges 1 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
     >
-      Components introduce new challenges
+      Components introduce 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        new challenges
+      </span>
     </p>
     <p
-      className="sc-htoDjs ddCdQA sc-bdVaJa aZHze"
+      className="sc-dnqmqq feeNAA sc-bdVaJa aZHze"
       color="#000"
       size="42px"
       style={
@@ -14938,7 +15253,7 @@ exports[`Storyshots Slides/Intro Components introduce new challenges 1 1`] = `
       Countless situations & states to support
     </p>
     <p
-      className="sc-htoDjs ddCdQA sc-bdVaJa aZHze"
+      className="sc-dnqmqq feeNAA sc-bdVaJa aZHze"
       color="#000"
       size="42px"
       style={
@@ -14957,7 +15272,7 @@ exports[`Storyshots Slides/Intro Components introduce new challenges 1 1`] = `
       Hundreds of components and use cases
     </p>
     <p
-      className="sc-htoDjs ddCdQA sc-bdVaJa aZHze"
+      className="sc-dnqmqq feeNAA sc-bdVaJa aZHze"
       color="#000"
       size="42px"
       style={
@@ -14981,20 +15296,25 @@ exports[`Storyshots Slides/Intro Components introduce new challenges 1 1`] = `
 
 exports[`Storyshots Slides/Intro Components introduce new challenges 2 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
     >
-      Components introduce new challenges
+      Components introduce 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        new challenges
+      </span>
     </p>
     <p
-      className="sc-htoDjs ddCdQA sc-bdVaJa aZHze"
+      className="sc-dnqmqq feeNAA sc-bdVaJa aZHze"
       color="#000"
       size="42px"
     >
@@ -15008,7 +15328,7 @@ exports[`Storyshots Slides/Intro Components introduce new challenges 2 1`] = `
       Countless situations & states to support
     </p>
     <p
-      className="sc-htoDjs ddCdQA sc-bdVaJa aZHze"
+      className="sc-dnqmqq feeNAA sc-bdVaJa aZHze"
       color="#000"
       size="42px"
       style={
@@ -15027,7 +15347,7 @@ exports[`Storyshots Slides/Intro Components introduce new challenges 2 1`] = `
       Hundreds of components and use cases
     </p>
     <p
-      className="sc-htoDjs ddCdQA sc-bdVaJa aZHze"
+      className="sc-dnqmqq feeNAA sc-bdVaJa aZHze"
       color="#000"
       size="42px"
       style={
@@ -15051,20 +15371,25 @@ exports[`Storyshots Slides/Intro Components introduce new challenges 2 1`] = `
 
 exports[`Storyshots Slides/Intro Components introduce new challenges 3 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
     >
-      Components introduce new challenges
+      Components introduce 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        new challenges
+      </span>
     </p>
     <p
-      className="sc-htoDjs ddCdQA sc-bdVaJa aZHze"
+      className="sc-dnqmqq feeNAA sc-bdVaJa aZHze"
       color="#000"
       size="42px"
     >
@@ -15078,7 +15403,7 @@ exports[`Storyshots Slides/Intro Components introduce new challenges 3 1`] = `
       Countless situations & states to support
     </p>
     <p
-      className="sc-htoDjs ddCdQA sc-bdVaJa aZHze"
+      className="sc-dnqmqq feeNAA sc-bdVaJa aZHze"
       color="#000"
       size="42px"
     >
@@ -15092,7 +15417,7 @@ exports[`Storyshots Slides/Intro Components introduce new challenges 3 1`] = `
       Hundreds of components and use cases
     </p>
     <p
-      className="sc-htoDjs ddCdQA sc-bdVaJa aZHze"
+      className="sc-dnqmqq feeNAA sc-bdVaJa aZHze"
       color="#000"
       size="42px"
       style={
@@ -15116,20 +15441,25 @@ exports[`Storyshots Slides/Intro Components introduce new challenges 3 1`] = `
 
 exports[`Storyshots Slides/Intro Components introduce new challenges 4 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
     >
-      Components introduce new challenges
+      Components introduce 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        new challenges
+      </span>
     </p>
     <p
-      className="sc-htoDjs ddCdQA sc-bdVaJa aZHze"
+      className="sc-dnqmqq feeNAA sc-bdVaJa aZHze"
       color="#000"
       size="42px"
     >
@@ -15143,7 +15473,7 @@ exports[`Storyshots Slides/Intro Components introduce new challenges 4 1`] = `
       Countless situations & states to support
     </p>
     <p
-      className="sc-htoDjs ddCdQA sc-bdVaJa aZHze"
+      className="sc-dnqmqq feeNAA sc-bdVaJa aZHze"
       color="#000"
       size="42px"
     >
@@ -15157,7 +15487,7 @@ exports[`Storyshots Slides/Intro Components introduce new challenges 4 1`] = `
       Hundreds of components and use cases
     </p>
     <p
-      className="sc-htoDjs ddCdQA sc-bdVaJa aZHze"
+      className="sc-dnqmqq feeNAA sc-bdVaJa aZHze"
       color="#000"
       size="42px"
     >
@@ -15176,17 +15506,23 @@ exports[`Storyshots Slides/Intro Components introduce new challenges 4 1`] = `
 
 exports[`Storyshots Slides/Intro Or if you come back in 6 months? 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
     >
-      Or if you come back in 6 months?
+      Or if you 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        come back
+      </span>
+       in 6 months?
     </p>
   </div>
 </div>
@@ -15194,10 +15530,10 @@ exports[`Storyshots Slides/Intro Or if you come back in 6 months? 1`] = `
 
 exports[`Storyshots Slides/Intro Storybook 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <span
       className="sc-bwzfXH ghuPdm"
@@ -15211,14 +15547,14 @@ exports[`Storyshots Slides/Intro Storybook 1`] = `
       />
     </span>
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
     >
       Storybook
     </p>
     <p
-      className="sc-gzVnrw ibZhkv sc-bdVaJa aZHze"
+      className="sc-htoDjs bZzhDu sc-bdVaJa aZHze"
       color="#000"
       size="42px"
     >
@@ -15232,7 +15568,7 @@ exports[`Storyshots Slides/Intro Storybook 1`] = `
       </span>
     </p>
     <p
-      className="sc-dnqmqq dJOdge sc-bdVaJa cBVWqd"
+      className="sc-iwsKbI htOEeN sc-bdVaJa cBVWqd"
       color="#000"
       size="30px"
     >
@@ -15260,20 +15596,26 @@ exports[`Storyshots Slides/Intro Storybook 1`] = `
 
 exports[`Storyshots Slides/Intro Tell me more! 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
     >
-      A component story...
+      A 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        component
+      </span>
+       story...
     </p>
     <button
-      className="sc-iwsKbI dZFthU sc-bxivhb isMdZS"
+      className="sc-gqjmRU dBzyce sc-bxivhb isMdZS"
       onClick={[Function]}
       type="button"
     >
@@ -15299,17 +15641,22 @@ exports[`Storyshots Slides/Intro Tell me more! 1`] = `
 
 exports[`Storyshots Slides/Intro We need a solution... 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
     >
-      We need a solution...
+      We need a 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        solution
+      </span>
        
       <span
         aria-label="love"
@@ -15324,17 +15671,179 @@ exports[`Storyshots Slides/Intro We need a solution... 1`] = `
 
 exports[`Storyshots Slides/Intro What if a new developer arrives? 1`] = `
 <div
-  className="sc-ifAKCX jGQcwL"
+  className="sc-EHOje pTGQh"
 >
   <div
-    className="sc-EHOje bnGEkg"
+    className="sc-bZQynM fMtTNs"
   >
     <p
-      className="sc-bZQynM ktMcUi sc-bdVaJa fEiwOK"
+      className="sc-gzVnrw fDvciQ sc-bdVaJa fEiwOK"
       color="#000"
       size="80px"
     >
-      What if a new developer arrives?
+      What if a 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        new developer
+      </span>
+       arrives?
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/SBDD API first 1`] = `
+<div
+  className="sc-kgoBCf doLwbS"
+>
+  <div
+    className="sc-kGXeez jmSCAp"
+  >
+    <p
+      className="sc-kpOJdX kASMDW sc-bdVaJa iuIXIB"
+      color="#000"
+      size="70px"
+    >
+      Now, we think 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        API first
+      </span>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/SBDD Adopt it! 1`] = `
+<div
+  className="sc-kgoBCf doLwbS"
+>
+  <div
+    className="sc-kGXeez jmSCAp"
+  >
+    <p
+      className="sc-kpOJdX kASMDW sc-bdVaJa iuIXIB"
+      color="#000"
+      size="70px"
+    >
+      So, let
+      '
+      s adopt the...
+    </p>
+    <p
+      className="sc-kpOJdX kASMDW sc-bdVaJa iuIXIB"
+      color="#000"
+      size="70px"
+    >
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        Storybook Driven Development
+      </span>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/SBDD Discovery enhanced 1`] = `
+<div
+  className="sc-kgoBCf doLwbS"
+>
+  <div
+    className="sc-kGXeez jmSCAp"
+  >
+    <p
+      className="sc-kpOJdX kASMDW sc-bdVaJa iuIXIB"
+      color="#000"
+      size="70px"
+    >
+      Now, 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        discovery
+      </span>
+       is enhanced for
+       
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        outside & inside
+      </span>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/SBDD Isolated environment 1`] = `
+<div
+  className="sc-kgoBCf doLwbS"
+>
+  <div
+    className="sc-kGXeez jmSCAp"
+  >
+    <p
+      className="sc-kpOJdX kASMDW sc-bdVaJa iuIXIB"
+      color="#000"
+      size="70px"
+    >
+      Now, we can develop 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        fast
+      </span>
+       in isolation
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/SBDD It's not finished 1`] = `
+<div
+  className="sc-kgoBCf doLwbS"
+>
+  <div
+    className="sc-kGXeez jmSCAp"
+  >
+    <p
+      className="sc-kpOJdX kASMDW sc-bdVaJa iuIXIB"
+      color="#000"
+      size="70px"
+    >
+      But... It
+      '
+      s 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        not finished!
+      </span>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/SBDD Live documentation 1`] = `
+<div
+  className="sc-kgoBCf doLwbS"
+>
+  <div
+    className="sc-kGXeez jmSCAp"
+  >
+    <p
+      className="sc-kpOJdX kASMDW sc-bdVaJa iuIXIB"
+      color="#000"
+      size="70px"
+    >
+      Now, we have a 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        live documentation
+      </span>
     </p>
   </div>
 </div>
@@ -15342,17 +15851,22 @@ exports[`Storyshots Slides/Intro What if a new developer arrives? 1`] = `
 
 exports[`Storyshots Slides/Storybook Build components and use cases in isolation 1`] = `
 <div
-  className="sc-gZMcBi dKxlAz"
+  className="sc-VigVT hABiJd"
 >
   <div
-    className="sc-gqjmRU dIIWbx"
+    className="sc-jTzLTM jWVrYP"
   >
     <p
-      className="sc-VigVT bXEVcu sc-bdVaJa bvaadn"
+      className="sc-fjdhpX bYRITd sc-bdVaJa bvaadn"
       color="#000"
       size="60px"
     >
-      Build components and use cases in isolation
+      Build components and use cases in 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        isolation
+      </span>
     </p>
     <span
       className="sc-bwzfXH ghuPdm"
@@ -15376,17 +15890,22 @@ exports[`Storyshots Slides/Storybook Build components and use cases in isolation
 
 exports[`Storyshots Slides/Storybook Customize functionality with addons 1`] = `
 <div
-  className="sc-gZMcBi dKxlAz"
+  className="sc-VigVT hABiJd"
 >
   <div
-    className="sc-gqjmRU dIIWbx"
+    className="sc-jTzLTM jWVrYP"
   >
     <p
-      className="sc-VigVT bXEVcu sc-bdVaJa bvaadn"
+      className="sc-fjdhpX bYRITd sc-bdVaJa bvaadn"
       color="#000"
       size="60px"
     >
-      Customize functionality with addons
+      Customize functionality with 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        addons
+      </span>
     </p>
     <span
       className="sc-bwzfXH ghuPdm"
@@ -15410,10 +15929,10 @@ exports[`Storyshots Slides/Storybook Customize functionality with addons 1`] = `
 
 exports[`Storyshots Slides/Storybook Presentation 1`] = `
 <div
-  className="sc-gZMcBi dKxlAz"
+  className="sc-VigVT hABiJd"
 >
   <div
-    className="sc-gqjmRU dIIWbx"
+    className="sc-jTzLTM jWVrYP"
   >
     <span
       className="sc-bwzfXH ghuPdm"
@@ -15432,17 +15951,23 @@ exports[`Storyshots Slides/Storybook Presentation 1`] = `
 
 exports[`Storyshots Slides/Storybook Save use cases as stories 1`] = `
 <div
-  className="sc-gZMcBi dKxlAz"
+  className="sc-VigVT hABiJd"
 >
   <div
-    className="sc-gqjmRU dIIWbx"
+    className="sc-jTzLTM jWVrYP"
   >
     <p
-      className="sc-VigVT bXEVcu sc-bdVaJa bvaadn"
+      className="sc-fjdhpX bYRITd sc-bdVaJa bvaadn"
       color="#000"
       size="60px"
     >
-      Save use cases as stories
+      Save 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        use cases
+      </span>
+       as stories
     </p>
     <span
       className="sc-bwzfXH ghuPdm"
@@ -15466,10 +15991,10 @@ exports[`Storyshots Slides/Storybook Save use cases as stories 1`] = `
 
 exports[`Storyshots Slides/Storybook Storybook 1`] = `
 <div
-  className="sc-gZMcBi dKxlAz"
+  className="sc-VigVT hABiJd"
 >
   <div
-    className="sc-gqjmRU dIIWbx"
+    className="sc-jTzLTM jWVrYP"
   >
     <span
       className="sc-bwzfXH ghuPdm"
@@ -15483,7 +16008,7 @@ exports[`Storyshots Slides/Storybook Storybook 1`] = `
       />
     </span>
     <p
-      className="sc-jTzLTM eIfZce sc-bdVaJa iFWMJO"
+      className="sc-jzJRlG iaaMGx sc-bdVaJa iFWMJO"
       color="#000"
       size="120px"
     >
@@ -15495,17 +16020,23 @@ exports[`Storyshots Slides/Storybook Storybook 1`] = `
 
 exports[`Storyshots Slides/Storybook Storybook lives alongside your app 1`] = `
 <div
-  className="sc-gZMcBi dKxlAz"
+  className="sc-VigVT hABiJd"
 >
   <div
-    className="sc-gqjmRU dIIWbx"
+    className="sc-jTzLTM jWVrYP"
   >
     <p
-      className="sc-VigVT bXEVcu sc-bdVaJa bvaadn"
+      className="sc-fjdhpX bYRITd sc-bdVaJa bvaadn"
       color="#000"
       size="60px"
     >
-      Storybook lives alongside your app
+      Storybook lives 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        alongside
+      </span>
+       your app
     </p>
     <span
       className="sc-bwzfXH ghuPdm"
@@ -15523,6 +16054,415 @@ exports[`Storyshots Slides/Storybook Storybook lives alongside your app 1`] = `
         width={1300}
       />
     </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Testing Automated Visual Testing 1`] = `
+<div
+  className="sc-kEYyzF fhwAsF"
+>
+  <div
+    className="sc-kkGfuU gdvFJe"
+  >
+    <p
+      className="sc-bdVaJa iFWMJO"
+      color="#000"
+      size="120px"
+    >
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        Automated Visual
+      </span>
+       Testing
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Testing Interaction Testing 1`] = `
+<div
+  className="sc-kEYyzF fhwAsF"
+>
+  <div
+    className="sc-kkGfuU gdvFJe"
+  >
+    <p
+      className="sc-bdVaJa iFWMJO"
+      color="#000"
+      size="120px"
+    >
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        Interaction
+      </span>
+       Testing
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Testing Manual Testing 1`] = `
+<div
+  className="sc-kEYyzF fhwAsF"
+>
+  <div
+    className="sc-kkGfuU gdvFJe"
+  >
+    <p
+      className="sc-bdVaJa iFWMJO"
+      color="#000"
+      size="120px"
+    >
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        Manual
+      </span>
+       Testing
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Testing Structural Testing 1`] = `
+<div
+  className="sc-kEYyzF fhwAsF"
+>
+  <div
+    className="sc-kkGfuU gdvFJe"
+  >
+    <p
+      className="sc-bdVaJa iFWMJO"
+      color="#000"
+      size="120px"
+    >
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        Structural
+      </span>
+       Testing
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Testing UI Testing 1`] = `
+<div
+  className="sc-kEYyzF fhwAsF"
+>
+  <div
+    className="sc-kkGfuU gdvFJe"
+  >
+    <p
+      className="sc-bdVaJa iFWMJO"
+      color="#000"
+      size="120px"
+    >
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        UI
+      </span>
+       Testing
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Testing Why do we need to test? 1 1`] = `
+<div
+  className="sc-kEYyzF fhwAsF"
+>
+  <div
+    className="sc-kkGfuU gdvFJe"
+  >
+    <p
+      className="sc-iAyFgw gsMVIZ sc-bdVaJa iuIXIB"
+      color="#000"
+      size="70px"
+    >
+      Why do we need to 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        test
+      </span>
+      ?
+    </p>
+    <p
+      className="sc-hSdWYo cjOSvj sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    >
+      <span
+        aria-label="glass"
+        role="img"
+      >
+        🔍
+      </span>
+       
+      To find bugs
+    </p>
+    <p
+      className="sc-hSdWYo cjOSvj sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    >
+      <span
+        aria-label="muscle"
+        role="img"
+      >
+        💪
+      </span>
+       
+      To make sure things won’t break between new code commits.
+    </p>
+    <p
+      className="sc-hSdWYo cjOSvj sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    >
+      <span
+        aria-label="documentation"
+        role="img"
+      >
+        📝
+      </span>
+       
+      To keep tests as living documentations
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Testing Why do we need to test? 2 1`] = `
+<div
+  className="sc-kEYyzF fhwAsF"
+>
+  <div
+    className="sc-kkGfuU gdvFJe"
+  >
+    <p
+      className="sc-iAyFgw gsMVIZ sc-bdVaJa iuIXIB"
+      color="#000"
+      size="70px"
+    >
+      Why do we need to 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        test
+      </span>
+      ?
+    </p>
+    <p
+      className="sc-hSdWYo cjOSvj sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+    >
+      <span
+        aria-label="glass"
+        role="img"
+      >
+        🔍
+      </span>
+       
+      To find bugs
+    </p>
+    <p
+      className="sc-hSdWYo cjOSvj sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    >
+      <span
+        aria-label="muscle"
+        role="img"
+      >
+        💪
+      </span>
+       
+      To make sure things won’t break between new code commits.
+    </p>
+    <p
+      className="sc-hSdWYo cjOSvj sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    >
+      <span
+        aria-label="documentation"
+        role="img"
+      >
+        📝
+      </span>
+       
+      To keep tests as living documentations
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Testing Why do we need to test? 3 1`] = `
+<div
+  className="sc-kEYyzF fhwAsF"
+>
+  <div
+    className="sc-kkGfuU gdvFJe"
+  >
+    <p
+      className="sc-iAyFgw gsMVIZ sc-bdVaJa iuIXIB"
+      color="#000"
+      size="70px"
+    >
+      Why do we need to 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        test
+      </span>
+      ?
+    </p>
+    <p
+      className="sc-hSdWYo cjOSvj sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+    >
+      <span
+        aria-label="glass"
+        role="img"
+      >
+        🔍
+      </span>
+       
+      To find bugs
+    </p>
+    <p
+      className="sc-hSdWYo cjOSvj sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+    >
+      <span
+        aria-label="muscle"
+        role="img"
+      >
+        💪
+      </span>
+       
+      To make sure things won’t break between new code commits.
+    </p>
+    <p
+      className="sc-hSdWYo cjOSvj sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+      style={
+        Object {
+          "opacity": 0,
+        }
+      }
+    >
+      <span
+        aria-label="documentation"
+        role="img"
+      >
+        📝
+      </span>
+       
+      To keep tests as living documentations
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Testing Why do we need to test? 4 1`] = `
+<div
+  className="sc-kEYyzF fhwAsF"
+>
+  <div
+    className="sc-kkGfuU gdvFJe"
+  >
+    <p
+      className="sc-iAyFgw gsMVIZ sc-bdVaJa iuIXIB"
+      color="#000"
+      size="70px"
+    >
+      Why do we need to 
+      <span
+        className="sc-ifAKCX fKuUaG"
+      >
+        test
+      </span>
+      ?
+    </p>
+    <p
+      className="sc-hSdWYo cjOSvj sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+    >
+      <span
+        aria-label="glass"
+        role="img"
+      >
+        🔍
+      </span>
+       
+      To find bugs
+    </p>
+    <p
+      className="sc-hSdWYo cjOSvj sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+    >
+      <span
+        aria-label="muscle"
+        role="img"
+      >
+        💪
+      </span>
+       
+      To make sure things won’t break between new code commits.
+    </p>
+    <p
+      className="sc-hSdWYo cjOSvj sc-bdVaJa aZHze"
+      color="#000"
+      size="42px"
+    >
+      <span
+        aria-label="documentation"
+        role="img"
+      >
+        📝
+      </span>
+       
+      To keep tests as living documentations
+    </p>
   </div>
 </div>
 `;
