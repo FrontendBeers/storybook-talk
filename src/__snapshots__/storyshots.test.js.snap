@@ -1616,6 +1616,28 @@ exports[`Storyshots Slides/Testing Automated Visual Testing 1`] = `
 </div>
 `;
 
+exports[`Storyshots Slides/Testing Automated Visual Testing Illustration 1`] = `
+<div
+  className="sc-kEYyzF fhwAsF"
+>
+  <div
+    className="sc-kkGfuU gdvFJe"
+  >
+    <span
+      className="sc-bwzfXH ghuPdm"
+    >
+      <img
+        alt="automated visual testing"
+        className="sc-htpNat cMmwfl"
+        height={350}
+        src="automated-visual-testing.png"
+        width={1200}
+      />
+    </span>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Slides/Testing Interaction Testing 1`] = `
 <div
   className="sc-kEYyzF fhwAsF"
@@ -1635,6 +1657,28 @@ exports[`Storyshots Slides/Testing Interaction Testing 1`] = `
       </span>
        Testing
     </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Testing Interaction Testing Illustration 1`] = `
+<div
+  className="sc-kEYyzF fhwAsF"
+>
+  <div
+    className="sc-kkGfuU gdvFJe"
+  >
+    <span
+      className="sc-bwzfXH ghuPdm"
+    >
+      <img
+        alt="interaction testing"
+        className="sc-htpNat LqimM"
+        height={700}
+        src="interaction-testing.png"
+        width={1200}
+      />
+    </span>
   </div>
 </div>
 `;
@@ -1681,6 +1725,28 @@ exports[`Storyshots Slides/Testing Structural Testing 1`] = `
       </span>
        Testing
     </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slides/Testing Structural Testing Illustration 1`] = `
+<div
+  className="sc-kEYyzF fhwAsF"
+>
+  <div
+    className="sc-kkGfuU gdvFJe"
+  >
+    <span
+      className="sc-bwzfXH ghuPdm"
+    >
+      <img
+        alt="structural testing"
+        className="sc-htpNat lmkAid"
+        height={600}
+        src="structural-testing.png"
+        width={1200}
+      />
+    </span>
   </div>
 </div>
 `;

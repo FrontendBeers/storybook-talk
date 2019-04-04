@@ -3,7 +3,11 @@ import styled from 'styled-components';
 
 import { storiesOf } from '@storybook/react';
 import Text from '../../Components/Text';
+import Image from '../../Components/Image';
 import { Highlight } from '../../Utils/Highlight';
+import structuralTesting from '../../../assets/structural-testing.png';
+import interactionTesting from '../../../assets/interaction-testing.png';
+import automatedVisualTesting from '../../../assets/automated-visual-testing.png';
 
 storiesOf('Slides/Testing', module)
   .addDecorator(storyFn => <StoryWrapper>{storyFn()}</StoryWrapper>)
@@ -121,6 +125,16 @@ storiesOf('Slides/Testing', module)
       </BigTitle>
     </Wrapper>
   ))
+  .add('Structural Testing Illustration', () => (
+    <Wrapper>
+      <Image
+        src={structuralTesting}
+        alt="structural testing"
+        width={1200}
+        height={600}
+      />
+    </Wrapper>
+  ))
   .add('Interaction Testing', () => (
     <Wrapper>
       <BigTitle>
@@ -128,11 +142,31 @@ storiesOf('Slides/Testing', module)
       </BigTitle>
     </Wrapper>
   ))
+  .add('Interaction Testing Illustration', () => (
+    <Wrapper>
+      <Image
+        src={interactionTesting}
+        alt="interaction testing"
+        width={1200}
+        height={700}
+      />
+    </Wrapper>
+  ))
   .add('Automated Visual Testing', () => (
     <Wrapper>
       <BigTitle>
         <Highlight>Automated Visual</Highlight> Testing
       </BigTitle>
+    </Wrapper>
+  ))
+  .add('Automated Visual Testing Illustration', () => (
+    <Wrapper>
+      <Image
+        src={automatedVisualTesting}
+        alt="automated visual testing"
+        width={1200}
+        height={350}
+      />
     </Wrapper>
   ))
   .add('Manual Testing', () => (
