@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import COLORS from '../../Utils/Colors';
 
 const Button = ({ children, onClick, ...props }) => (
-  <StyledButton onClick={() => onClick('hello')} {...props}>
+  <StyledButton onClick={onClick} {...props}>
     {children}
   </StyledButton>
 );
