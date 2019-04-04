@@ -2,16 +2,10 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import Text from './Components/Text';
 import Button from './Components/Button';
+import getTime from './Utils/Time';
 
 const App = () => {
   const [logs, setLogs] = useState([]);
-
-  const getTwoDigits = time => `0${time}`.substr(-2);
-
-  const getTime = date =>
-    `${getTwoDigits(date.getHours())}:${getTwoDigits(
-      date.getMinutes()
-    )}:${getTwoDigits(date.getSeconds())}`;
 
   return (
     <Wrapper>
