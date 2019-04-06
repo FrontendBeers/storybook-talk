@@ -547,6 +547,24 @@ exports[`Storyshots Slides/Intro A simple pagination component 1 1`] = `
         width={750}
       />
     </span>
+    <p
+      className="sc-bdVaJa fTvotV"
+      color="#000"
+      size="12px"
+      style={
+        Object {
+          "fontStyle": "italic",
+        }
+      }
+    >
+      Source:
+       
+      <a
+        href="https://www.youtube.com/watch?v=PF0Vi-iIyoo"
+      >
+        Marie-Laure Thuret - React Storybook: Design, Dev, Doc, Debug Components - React Conf 2017
+      </a>
+    </p>
   </div>
 </div>
 `;
@@ -587,6 +605,24 @@ exports[`Storyshots Slides/Intro A simple pagination component 2 1`] = `
         width={750}
       />
     </span>
+    <p
+      className="sc-bdVaJa fTvotV"
+      color="#000"
+      size="12px"
+      style={
+        Object {
+          "fontStyle": "italic",
+        }
+      }
+    >
+      Source:
+       
+      <a
+        href="https://www.youtube.com/watch?v=PF0Vi-iIyoo"
+      >
+        Marie-Laure Thuret - React Storybook: Design, Dev, Doc, Debug Components - React Conf 2017
+      </a>
+    </p>
   </div>
 </div>
 `;

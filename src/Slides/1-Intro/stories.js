@@ -138,6 +138,17 @@ storiesOf('Slides/Intro', module)
         height={400}
         style={{ opacity: 0 }}
       />
+      <Text size="12px" style={{ fontStyle: 'italic', opacity: 0 }}>
+        Source:{' '}
+        <a
+          href="https://www.youtube.com/watch?v=PF0Vi-iIyoo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Marie-Laure Thuret - React Storybook: Design, Dev, Doc, Debug
+          Components - React Conf 2017
+        </a>
+      </Text>
     </Wrapper>
   ))
   .add('A simple pagination component 2', () => (
@@ -151,6 +162,17 @@ storiesOf('Slides/Intro', module)
         width={750}
         height={400}
       />
+      <Text size="12px" style={{ fontStyle: 'italic' }}>
+        Source:{' '}
+        <a
+          href="https://www.youtube.com/watch?v=PF0Vi-iIyoo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Marie-Laure Thuret - React Storybook: Design, Dev, Doc, Debug
+          Components - React Conf 2017
+        </a>
+      </Text>
     </Wrapper>
   ))
   .add('A lot of combinations...', () => (
