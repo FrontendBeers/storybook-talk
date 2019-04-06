@@ -1,0 +1,1 @@
+{"version":3,"file":"main.cf7dcaf63c435cc6a506.bundle.js","sources":["webpack:///./src/Utils/Colors.js"],"sourcesContent":["const COLORS = {\n  BLACK: '#000',\n  RED: 'red',\n  DARK: '#ccc',\n  GRAY: '#eee',\n  WHITE: '#fff',\n  PINK: '#ff4685',\n  TWITTER: '#00aced',\n  FACEBOOK: '#3b5998'\n};\n\nexport default COLORS;\n"],"mappings":"AAWA","sourceRoot":""}
