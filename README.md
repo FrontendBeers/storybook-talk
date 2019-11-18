@@ -8,7 +8,7 @@ To see it live, go to https://reactbeerlille.github.io/storybook-talk/ 🎉
 
 ## Tips to present
 
-- Press `F` to show the storybook in full screen
+- Press `F` to show the Storybook in full screen
 - Press `T` to hide the tab on top
 - Press `Alt + <` & `Alt + >` to move between slides
 
@@ -22,6 +22,7 @@ To see it live, go to https://reactbeerlille.github.io/storybook-talk/ 🎉
 - [React Storybook: Design, Dev, Doc, Debug Components - React Conf 2017 - Marie-Laure Thuret](https://www.youtube.com/watch?v=PF0Vi-iIyoo)
 - [Design Systems with React and Typescript in Storybook - egghead.io - Shawn Wang](https://egghead.io/courses/design-systems-with-react-and-typescript-in-storybook)
 - [Building a Maintainable UI with Storybook - ReactNext 2018 - Norbert de Langen](https://www.youtube.com/watch?v=9lQMmbITt0c)
+- [Storybook pour votre design system, un conte de fées ?](https://www.youtube.com/watch?v=E3RX9sJvyIA)
 
 ## Contribute
 
