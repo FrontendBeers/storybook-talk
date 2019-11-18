@@ -11,9 +11,14 @@ addParameters({
   ]
 });
 
-// automatically import all files ending in *.stories.js
-const reqSlides = requireContext('../src/Slides', true, /.stories.js$/);
-const reqComponents = requireContext('../src/Components', true, /.stories.js$/);
+// automatically import all files ending in *.stories.(js.mdx)
+const reqSlides = requireContext('../src/Slides', true, /.stories.(js|mdx)$/);
+const reqComponents = requireContext(
+  '../src/Components',
+  true,
+  /.stories.(js|mdx)$/
+);
+
 function loadStories() {
   reqSlides.keys().forEach(filename => reqSlides(filename));
   reqComponents.keys().forEach(filename => reqComponents(filename));

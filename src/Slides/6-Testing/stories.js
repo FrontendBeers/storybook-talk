@@ -203,7 +203,7 @@ const ListItem = styled(Text).attrs({
   margin-bottom: 0;
 `;
 
-const BigTitle = ({ children, blink, ...props }) => (
+const BigTitle = ({ children, ...props }) => (
   <Text size="120px" weight={800} {...props}>
     {children}
   </Text>

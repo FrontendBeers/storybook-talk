@@ -2,11 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { storiesOf } from '@storybook/react';
-import { withKnobs, boolean } from '@storybook/addon-knobs';
+import { withKnobs } from '@storybook/addon-knobs';
 import Text from '../../Components/Text';
 import storybookLogo from '../../../assets/storybook.png';
 import Image from '../../Components/Image';
-import { useBlink } from '../../Utils/CustomHooks';
 import COLORS from '../../Utils/Colors';
 
 storiesOf('Slides/Conclusion', module)
@@ -27,9 +26,7 @@ storiesOf('Slides/Conclusion', module)
   .add('Thanks!', () => (
     <Wrapper>
       <Image src={storybookLogo} alt="Storybook" width={160} height={160} />
-      <BigTitle style={{ margin: '24px 0' }} blink={boolean('blink', true)}>
-        Thanks!
-      </BigTitle>
+      <BigTitle style={{ margin: '24px 0' }}>Thanks!</BigTitle>
       <Subtitle style={{ fontSize: '26px' }}>
         Slides{"'"} source code:{' '}
         <a
@@ -60,13 +57,8 @@ const Wrapper = styled.div`
 
 const Subtitle = styled(Text).attrs({ size: '42px', weight: 500 })``;
 
-const BigTitle = ({ children, blink, ...props }) => (
-  <Text
-    size="120px"
-    weight={800}
-    color={blink ? useBlink() : COLORS.BLACK}
-    {...props}
-  >
+const BigTitle = ({ children, ...props }) => (
+  <Text size="120px" weight={800} color={COLORS.BLACK} {...props}>
     {children}
   </Text>
 );
