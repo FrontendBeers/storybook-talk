@@ -67,6 +67,14 @@ storiesOf('Slides/Examples', module)
         </Link>
       </FlexWrapper>
     </Wrapper>
+  ))
+  .add('Storybook 5.2', () => (
+    <Wrapper>
+      <Title>
+        Okay... But now <Highlight>Storybook 5.2</Highlight> includes a lot of{' '}
+        <Highlight>new features!</Highlight>
+      </Title>
+    </Wrapper>
   ));
 
 const StoryWrapper = styled.div`
